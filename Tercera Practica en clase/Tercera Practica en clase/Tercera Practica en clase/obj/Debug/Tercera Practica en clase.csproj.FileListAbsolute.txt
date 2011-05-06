@@ -1,0 +1,5 @@
+C:\Users\Carlos Páez\Documents\Programación\C#\Practicas-de-la-universidad-trayecto-1\Tercera Practica en clase\Tercera Practica en clase\Tercera Practica en clase\bin\Debug\Tercera Practica en clase.exe
+C:\Users\Carlos Páez\Documents\Programación\C#\Practicas-de-la-universidad-trayecto-1\Tercera Practica en clase\Tercera Practica en clase\Tercera Practica en clase\bin\Debug\Tercera Practica en clase.pdb
+C:\Users\Carlos Páez\Documents\Programación\C#\Practicas-de-la-universidad-trayecto-1\Tercera Practica en clase\Tercera Practica en clase\Tercera Practica en clase\obj\Debug\Tercera Practica en clase.csprojResolveAssemblyReference.cache
+C:\Users\Carlos Páez\Documents\Programación\C#\Practicas-de-la-universidad-trayecto-1\Tercera Practica en clase\Tercera Practica en clase\Tercera Practica en clase\obj\Debug\Tercera Practica en clase.exe
+C:\Users\Carlos Páez\Documents\Programación\C#\Practicas-de-la-universidad-trayecto-1\Tercera Practica en clase\Tercera Practica en clase\Tercera Practica en clase\obj\Debug\Tercera Practica en clase.pdb
