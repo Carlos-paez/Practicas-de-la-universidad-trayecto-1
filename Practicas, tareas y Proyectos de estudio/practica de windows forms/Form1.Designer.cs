@@ -39,6 +39,7 @@ namespace WindowsFormsApp1
             this.label2 = new System.Windows.Forms.Label();
             this.nombre = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -145,12 +146,20 @@ namespace WindowsFormsApp1
             this.label1.TabIndex = 0;
             this.label1.Text = "Ingrese su Nombre";
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(233, -6);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(98, 20);
+            this.dateTimePicker1.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(630, 285);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Mi Aplicación";
@@ -172,6 +181,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label mostrar;
         private System.Windows.Forms.Label ver;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
 

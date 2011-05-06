@@ -18,6 +18,7 @@ namespace practica_de_forms
         string userAdmin = "admin";
         string passAdmin = "admin";
 
+
         public Form1()
         {
             InitializeComponent();
