@@ -1,0 +1,5 @@
+D:\programación\C#\estudio de examen y exposición\estudio de examen y exposición\bin\Debug\estudio de examen y exposición.exe
+D:\programación\C#\estudio de examen y exposición\estudio de examen y exposición\bin\Debug\estudio de examen y exposición.pdb
+D:\programación\C#\estudio de examen y exposición\estudio de examen y exposición\obj\Debug\estudio de examen y exposición.csprojResolveAssemblyReference.cache
+D:\programación\C#\estudio de examen y exposición\estudio de examen y exposición\obj\Debug\estudio de examen y exposición.exe
+D:\programación\C#\estudio de examen y exposición\estudio de examen y exposición\obj\Debug\estudio de examen y exposición.pdb
