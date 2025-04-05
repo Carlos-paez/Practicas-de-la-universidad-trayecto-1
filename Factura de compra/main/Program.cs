@@ -1,109 +1,120 @@
 ﻿using System;
+using System.Collections.Generic; // Agregar esta línea para usar List
 
 class Program
 {
     static void Main(string[] args)
     {
-        int factura_numero = 0;
-        double total_dia = 0; // Inicializar total_dia
-        double total_pagar;
+        int facturaNumero = 0;
+        double totalDia = 0;
+        double totalPagar = 0;
         DateTime fecha = DateTime.Now;
-        
-	        
-	
-	        Console.WriteLine("Ingrese la acción que desea realizar: \n    1 = crear factura. \n    2 = Cierre de caja.");
-	        int opccion = int.Parse(Console.ReadLine());
-	
-	        Console.Clear();
-	
-	        do 
-	        {
-	           
-	                // Pedir y capturar datos de los productos
-		                Console.WriteLine("Ingrese el nombre del primer producto, presione enter y luego el precio del mismo:");
-		                string producto1 = Console.ReadLine();
-		                double precio1 = double.Parse(Console.ReadLine());
-		
-		                Console.WriteLine("Ingrese el nombre del segundo producto, presione enter y luego el precio del mismo:");
-		                string producto2 = Console.ReadLine();
-		                double precio2 = double.Parse(Console.ReadLine());
-		
-		                Console.WriteLine("Ingrese el nombre del tercer producto, presione enter y luego el precio del mismo:");
-		                string producto3 = Console.ReadLine();
-		                double precio3 = double.Parse(Console.ReadLine());
-		                
-		
-		                // Calcular el IVA de cada producto
-		                double iva1 = precio1 * 0.16;
-		                double iva2 = precio2 * 0.16;
-		                double iva3 = precio3 * 0.16;
-		
-		                // Capturar datos del cliente
-		                Console.WriteLine("Ingrese el nombre y apellido del cliente");
-		                string nombre_cliente = Console.ReadLine();
-		
-		                Console.WriteLine("Ingrese la dirección actual del cliente");
-		                string direccion = Console.ReadLine();
-	                
-	
-		                	
-		                double total_base = precio1 + precio2 + precio3;
-		                total_pagar = total_base + iva1 + iva2 + iva3; // Total a pagar incluye el IVA
-		                total_dia += total_pagar; // Acumular total del día
-		                factura_numero++; // Incrementar el número de factura
-		               
-	
-	                Console.Clear();
-	
-	                // Mostrar la factura
-	                Console.WriteLine("------------------------------------------------------------------------------------------------------------------------");
-	                Console.WriteLine(fecha);
-	                Console.WriteLine("Cliente: " + nombre_cliente);
-	                Console.WriteLine("Ubicado en: " + direccion);
-	                Console.WriteLine("Numero de factura: " + factura_numero);
-	
-	                Console.WriteLine("\n\n\n");
-	                Console.WriteLine("------------------------------------------------------------------------------------------------------------------------");
-	
-	                Console.WriteLine("");
-	                Console.WriteLine("Precio individual de cada Producto");
-	
-	                Console.WriteLine(producto1 + ": " + precio1 + "                 Incluyendo el IVA: " + iva1);
-	                Console.WriteLine(producto2 + ": " + precio2 + "                 Incluyendo el IVA: " + iva2);
-	                Console.WriteLine(producto3 + ": " + precio3 + "                 Incluyendo el IVA: " + iva3);
-	                Console.WriteLine("------------------------------------------------------------------------------------------------------------------------");
-	                Console.WriteLine("\n Precio total de productos: " + total_base);
-	                Console.WriteLine("\n Total a pagar: " + total_pagar);
-	
-	                Console.ReadLine();
-	
-	                Console.Clear();
-	                Console.WriteLine("\n\n\n");
-	
-	                if (total_pagar > 100 && total_pagar < 200)
-	                {
-	                    Console.WriteLine("\n Gracias por su compra");
-	                }
-	                else if (total_pagar < 100)
-	                {
-	                    Console.WriteLine("Que tenga feliz día");
-	                }
-	                else
-	                {
-	                    Console.WriteLine("Vuelva pronto");
-	                }
-	                Console.ReadKey(true);
-	                Console.Clear();
-	                
-	
-	        if (opccion == 2)
-	        {
-	            Console.WriteLine("Al " + fecha + " se crearon " + factura_numero + " facturas.");
-	            Console.WriteLine("Sumando un total de: " + total_dia);
-	            Console.ReadKey(true);
-	            Console.Clear();
-	        }
-	    while(opccion == 1)
+
+        int repetir;
+        double precioTotal = 0;
+        string direccion = "";
+        string cliente = "";
+
+        List<string> nombresProductos = new List<string>(); // Usar List para almacenar nombres de productos
+        List<double> preciosProductos = new List<double>(); // Usar List para almacenar precios de productos
+
+        while(true)
+        {
+        	Console.WriteLine("Ingrese la acción que desea realizar: \n 1 = crear factura. \n 2 = Cierre de caja.");
+        int opcion = int.Parse(Console.ReadLine());
+
+        Console.Clear();
+
+        if (opcion == 1)
+        {
+            while (true)
+            {
+                Console.WriteLine("Ingrese el nombre del producto (o 'fin' para terminar):");
+                string nombreProducto = Console.ReadLine();
+
+                if (nombreProducto.ToLower() == "fin")
+                {
+                    break;
+                }
+
+                Console.WriteLine("Ingrese el precio del producto:");
+                double precioProducto = double.Parse(Console.ReadLine());
+
+                nombresProductos.Add(nombreProducto); // Agregar nombre a la lista
+                preciosProductos.Add(precioProducto); // Agregar precio a la lista
+                precioTotal += precioProducto;
+
+                Console.WriteLine("¿Desea ingresar otro producto? (1 = sí, 2 = no):");
+                repetir = int.Parse(Console.ReadLine());
+
+                Console.Clear();
+
+                if (repetir == 2)
+                {
+                    Console.WriteLine("Ingrese el nombre y apellido del cliente:");
+                    cliente = Console.ReadLine();
+
+                    Console.WriteLine("Ingrese la dirección del cliente:");
+                    direccion = Console.ReadLine();
+
+                    break;
+                }
+            }
+
+            totalPagar = precioTotal * 1.16;
+            totalDia += totalPagar;
+            facturaNumero++;
+
+            Console.Clear();
+
+            // Mostrar la factura
+            Console.WriteLine("------------------------------------------------------------------------------------------------------------------------");
+            Console.WriteLine(fecha);
+            Console.WriteLine("Cliente: " + cliente);
+            Console.WriteLine("Ubicado en: " + direccion);
+            Console.WriteLine("Número de factura: " + facturaNumero);
+            Console.WriteLine("------------------------------------------------------------------------------------------------------------------------");
+            Console.WriteLine("------------------------------------------------------------------------------------------------------------------------");
+            Console.WriteLine("\nPrecio individual de cada Producto:");
+
+            for (int i = 0; i < nombresProductos.Count; i++) // Mostrar precio unitario de cada producto
+            {
+                Console.WriteLine(nombresProductos[i] + ": " + preciosProductos[i]);
+            }
+
+            Console.WriteLine("\nTotal de los productos: " + precioTotal); // Mostrar precio total sin IVA
+            Console.WriteLine("\nTotal a pagar: " + totalPagar); // Mostrar total a pagar con IVA
+
+            Console.ReadLine();
+            Console.Clear();
+
+            if (totalPagar > 100 && totalPagar < 200)
+            {
+                Console.WriteLine("\nGracias por su compra");
+            }
+            else if (totalPagar < 100)
+            {
+                Console.WriteLine("Que tenga feliz día");
+            }
+            else
+            {
+                Console.WriteLine("Vuelva pronto");
+            }
+
+            Console.ReadKey(true);
+            Console.Clear();
+        }
+        else if (opcion == 2)
+        {
+            Console.WriteLine("Al " + fecha + " se crearon " + facturaNumero + " facturas.");
+            Console.WriteLine("Sumando un total de: " + totalDia);
+            Console.ReadKey(true);
+            Console.Clear();
+        }
+        else
+        {
+            Console.WriteLine("Opción no válida.");
+        }
         }
     }
-}
+}   

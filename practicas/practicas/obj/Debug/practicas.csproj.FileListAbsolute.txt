@@ -1,0 +1,5 @@
+D:\programación\C#\practicas\practicas\obj\Debug\practicas.csprojResolveAssemblyReference.cache
+D:\programación\C#\practicas\practicas\bin\Debug\practicas.exe
+D:\programación\C#\practicas\practicas\bin\Debug\practicas.pdb
+D:\programación\C#\practicas\practicas\obj\Debug\practicas.exe
+D:\programación\C#\practicas\practicas\obj\Debug\practicas.pdb
