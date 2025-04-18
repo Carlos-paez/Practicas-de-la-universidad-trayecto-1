@@ -1,0 +1,15 @@
+C:\Users\Carlos Páez\Desktop\main\main\bin\Debug\main.exe
+C:\Users\Carlos Páez\Desktop\main\main\bin\Debug\main.pdb
+C:\Users\Carlos Páez\Desktop\main\main\obj\Debug\main.csprojResolveAssemblyReference.cache
+C:\Users\Carlos Páez\Desktop\main\main\obj\Debug\main.exe
+C:\Users\Carlos Páez\Desktop\main\main\obj\Debug\main.pdb
+D:\programación\C#\Factura de compra\main\obj\Debug\main.csprojResolveAssemblyReference.cache
+D:\programación\C#\Factura de compra\main\obj\Debug\main.exe
+D:\programación\C#\Factura de compra\main\bin\Debug\main.exe
+D:\programación\C#\Factura de compra\main\bin\Debug\main.pdb
+D:\programación\C#\Factura de compra\main\obj\Debug\main.pdb
+C:\Users\Carlos Páez\Documents\Programación\C#\Practicas-de-la-universidad-trayecto-1\Factura de compra\main\bin\Debug\main.exe
+C:\Users\Carlos Páez\Documents\Programación\C#\Practicas-de-la-universidad-trayecto-1\Factura de compra\main\bin\Debug\main.pdb
+C:\Users\Carlos Páez\Documents\Programación\C#\Practicas-de-la-universidad-trayecto-1\Factura de compra\main\obj\Debug\main.csprojResolveAssemblyReference.cache
+C:\Users\Carlos Páez\Documents\Programación\C#\Practicas-de-la-universidad-trayecto-1\Factura de compra\main\obj\Debug\main.exe
+C:\Users\Carlos Páez\Documents\Programación\C#\Practicas-de-la-universidad-trayecto-1\Factura de compra\main\obj\Debug\main.pdb

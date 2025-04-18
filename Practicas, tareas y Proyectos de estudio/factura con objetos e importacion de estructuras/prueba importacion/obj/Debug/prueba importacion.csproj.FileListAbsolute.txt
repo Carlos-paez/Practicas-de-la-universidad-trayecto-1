@@ -1,0 +1,5 @@
+C:\Users\Carlos Páez\Desktop\prueba importacion\prueba importacion\obj\Debug\prueba importacion.csprojResolveAssemblyReference.cache
+C:\Users\Carlos Páez\Desktop\prueba importacion\prueba importacion\bin\Debug\prueba importacion.exe
+C:\Users\Carlos Páez\Desktop\prueba importacion\prueba importacion\bin\Debug\prueba importacion.pdb
+C:\Users\Carlos Páez\Desktop\prueba importacion\prueba importacion\obj\Debug\prueba importacion.exe
+C:\Users\Carlos Páez\Desktop\prueba importacion\prueba importacion\obj\Debug\prueba importacion.pdb

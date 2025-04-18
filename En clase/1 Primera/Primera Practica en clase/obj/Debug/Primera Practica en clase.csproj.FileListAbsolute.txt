@@ -1,0 +1,5 @@
+D:\programación\C#\Primera Practica en clase\Primera Practica en clase\bin\Debug\Primera Practica en clase.exe
+D:\programación\C#\Primera Practica en clase\Primera Practica en clase\bin\Debug\Primera Practica en clase.pdb
+D:\programación\C#\Primera Practica en clase\Primera Practica en clase\obj\Debug\Primera Practica en clase.csprojResolveAssemblyReference.cache
+D:\programación\C#\Primera Practica en clase\Primera Practica en clase\obj\Debug\Primera Practica en clase.exe
+D:\programación\C#\Primera Practica en clase\Primera Practica en clase\obj\Debug\Primera Practica en clase.pdb

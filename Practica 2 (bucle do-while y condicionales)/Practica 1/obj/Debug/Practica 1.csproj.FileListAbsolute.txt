@@ -1,5 +1,0 @@
-C:\Users\Carlos Páez\Documents\Programación\C#\Practica 1\Practica 1\bin\Debug\Practica 1.exe
-C:\Users\Carlos Páez\Documents\Programación\C#\Practica 1\Practica 1\bin\Debug\Practica 1.pdb
-C:\Users\Carlos Páez\Documents\Programación\C#\Practica 1\Practica 1\obj\Debug\Practica 1.csprojResolveAssemblyReference.cache
-C:\Users\Carlos Páez\Documents\Programación\C#\Practica 1\Practica 1\obj\Debug\Practica 1.exe
-C:\Users\Carlos Páez\Documents\Programación\C#\Practica 1\Practica 1\obj\Debug\Practica 1.pdb
