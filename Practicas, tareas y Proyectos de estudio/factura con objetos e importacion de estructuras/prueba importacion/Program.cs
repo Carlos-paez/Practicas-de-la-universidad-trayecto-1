@@ -51,29 +51,29 @@ class Program
     	
     	Console.WriteLine("Ingrese la cedula del cliente: ");
     	int  cedula = int.Parse(Console.ReadLine());
-    	
+
     	Console.WriteLine("Ingrese la direccion del cliente: ");
     	string address = Console.ReadLine();
-    	
+
     	Cliente User = new Cliente(client_name1, address, cedula);
-    	
+
     	Console.Clear();
-    	
+
     //Mostrar la factura
     	Console.WriteLine("\n\n\n" + fecha);
-    	
+
     	Console.WriteLine(separa);
-    	
+
     	Console.WriteLine("Cliente:");
     	Console.WriteLine(User.Data());
-    	
+
     	Console.WriteLine("\nProductos:");
         Console.WriteLine(productoI.Facturar());
     	Console.WriteLine(productoII.Facturar());
     	Console.WriteLine(productoIII.Facturar());
     	
     	Console.WriteLine(separa);
-    	    	
+
     	Console.WriteLine("Total a pagar: " + productoI.Precio + productoII.Precio + productoIII.Precio);
     	
     	
