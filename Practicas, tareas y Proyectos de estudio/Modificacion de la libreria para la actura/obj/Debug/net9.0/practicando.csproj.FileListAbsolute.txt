@@ -1,0 +1,29 @@
+C:\Users\carlo\Desktop\practicando\obj\Debug\net9.0\practicando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\Desktop\practicando\obj\Debug\net9.0\practicando.AssemblyInfoInputs.cache
+C:\Users\carlo\Desktop\practicando\obj\Debug\net9.0\practicando.AssemblyInfo.cs
+C:\Users\carlo\Desktop\practicando\obj\Debug\net9.0\practicando.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Desktop\practicando\bin\Debug\net9.0\practicando.exe
+C:\Users\carlo\Desktop\practicando\bin\Debug\net9.0\practicando.deps.json
+C:\Users\carlo\Desktop\practicando\bin\Debug\net9.0\practicando.runtimeconfig.json
+C:\Users\carlo\Desktop\practicando\bin\Debug\net9.0\practicando.dll
+C:\Users\carlo\Desktop\practicando\bin\Debug\net9.0\practicando.pdb
+C:\Users\carlo\Desktop\practicando\obj\Debug\net9.0\practicando.dll
+C:\Users\carlo\Desktop\practicando\obj\Debug\net9.0\refint\practicando.dll
+C:\Users\carlo\Desktop\practicando\obj\Debug\net9.0\practicando.pdb
+C:\Users\carlo\Desktop\practicando\obj\Debug\net9.0\practicando.genruntimeconfig.cache
+C:\Users\carlo\Desktop\practicando\obj\Debug\net9.0\ref\practicando.dll
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Modificacion de la libreria para la actura\obj\Debug\net9.0\practicando.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Modificacion de la libreria para la actura\obj\Debug\net9.0\practicando.AssemblyInfoInputs.cache
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Modificacion de la libreria para la actura\obj\Debug\net9.0\practicando.AssemblyInfo.cs
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Modificacion de la libreria para la actura\obj\Debug\net9.0\practicando.csproj.CoreCompileInputs.cache
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Modificacion de la libreria para la actura\obj\Debug\net9.0\practicando.sourcelink.json
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Modificacion de la libreria para la actura\obj\Debug\net9.0\practicando.dll
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Modificacion de la libreria para la actura\obj\Debug\net9.0\refint\practicando.dll
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Modificacion de la libreria para la actura\obj\Debug\net9.0\practicando.pdb
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Modificacion de la libreria para la actura\bin\Debug\net9.0\practicando.exe
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Modificacion de la libreria para la actura\bin\Debug\net9.0\practicando.deps.json
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Modificacion de la libreria para la actura\bin\Debug\net9.0\practicando.runtimeconfig.json
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Modificacion de la libreria para la actura\bin\Debug\net9.0\practicando.dll
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Modificacion de la libreria para la actura\bin\Debug\net9.0\practicando.pdb
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Modificacion de la libreria para la actura\obj\Debug\net9.0\practicando.genruntimeconfig.cache
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Modificacion de la libreria para la actura\obj\Debug\net9.0\ref\practicando.dll

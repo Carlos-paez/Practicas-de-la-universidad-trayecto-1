@@ -3,3 +3,8 @@ C:\Users\Carlos Páez\Desktop\prueba importacion\prueba importacion\bin\Debug\pr
 C:\Users\Carlos Páez\Desktop\prueba importacion\prueba importacion\bin\Debug\prueba importacion.pdb
 C:\Users\Carlos Páez\Desktop\prueba importacion\prueba importacion\obj\Debug\prueba importacion.exe
 C:\Users\Carlos Páez\Desktop\prueba importacion\prueba importacion\obj\Debug\prueba importacion.pdb
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\factura con objetos e importacion de estructuras\prueba importacion\obj\Debug\prueba importacion.csprojResolveAssemblyReference.cache
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\factura con objetos e importacion de estructuras\prueba importacion\obj\Debug\prueba importacion.exe
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\factura con objetos e importacion de estructuras\prueba importacion\bin\Debug\prueba importacion.exe
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\factura con objetos e importacion de estructuras\prueba importacion\bin\Debug\prueba importacion.pdb
+E:\Programación\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\factura con objetos e importacion de estructuras\prueba importacion\obj\Debug\prueba importacion.pdb
