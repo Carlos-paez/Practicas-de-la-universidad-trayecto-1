@@ -15,21 +15,13 @@ namespace practica_de_forms
         public Form6(DateTime fecha_nacimiento, DateTime fecha_actual)
         {
             InitializeComponent();
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
+            int edad = fecha_actual.Year - fecha_nacimiento.Year;
+            fecha.Text = edad.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void fecha_Click(object sender, EventArgs e)
-        {
-            
+            Application.Exit();
         }
     }
 }

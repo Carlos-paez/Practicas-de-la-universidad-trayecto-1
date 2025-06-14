@@ -27,3 +27,18 @@ C:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Pro
 C:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica de forms.pdb
 C:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica de forms.csproj.AssemblyReference.cache
 C:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica_de_forms.Form6.resources
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\bin\Debug\practica de forms.exe.config
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\bin\Debug\practica de forms.exe
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\bin\Debug\practica de forms.pdb
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica de forms.csproj.AssemblyReference.cache
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica_de_forms.Form1.resources
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica_de_forms.Form2.resources
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica_de_forms.Form3.resources
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica_de_forms.Form4.resources
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica_de_forms.Form5.resources
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica_de_forms.Form6.resources
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica_de_forms.Properties.Resources.resources
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica de forms.csproj.GenerateResource.cache
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica de forms.csproj.CoreCompileInputs.cache
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica de forms.exe
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica de forms.pdb
