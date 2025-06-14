@@ -27,6 +27,7 @@ C:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Pro
 C:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica de forms.pdb
 C:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica de forms.csproj.AssemblyReference.cache
 C:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica_de_forms.Form6.resources
+<<<<<<< HEAD
 E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\bin\Debug\practica de forms.exe.config
 E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\bin\Debug\practica de forms.exe
 E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\bin\Debug\practica de forms.pdb
@@ -42,3 +43,5 @@ E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Pro
 E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica de forms.csproj.CoreCompileInputs.cache
 E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica de forms.exe
 E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practica de forms\obj\Debug\practica de forms.pdb
+=======
+>>>>>>> 58a23b94f706ac8c7efb5a49ca56b424aaed7ade

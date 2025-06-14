@@ -33,8 +33,13 @@ namespace practica_de_forms
             this.panel4 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
             this.button1 = new System.Windows.Forms.Button();
             this.fecha = new System.Windows.Forms.Label();
+=======
+            this.fecha = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+>>>>>>> 58a23b94f706ac8c7efb5a49ca56b424aaed7ade
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -60,11 +65,19 @@ namespace practica_de_forms
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+<<<<<<< HEAD
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(270, 6);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(165, 46);
+=======
+            this.label2.Font = new System.Drawing.Font("FiraCode Nerd Font Mono Light", 30F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(216, 4);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(247, 49);
+>>>>>>> 58a23b94f706ac8c7efb5a49ca56b424aaed7ade
             this.label2.TabIndex = 2;
             this.label2.Text = "Inforteg ";
             // 
@@ -77,6 +90,7 @@ namespace practica_de_forms
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(582, 295);
             this.panel1.TabIndex = 8;
+<<<<<<< HEAD
             // 
             // button1
             // 
@@ -87,17 +101,38 @@ namespace practica_de_forms
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+=======
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+>>>>>>> 58a23b94f706ac8c7efb5a49ca56b424aaed7ade
             // 
             // fecha
             // 
             this.fecha.AutoSize = true;
             this.fecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fecha.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.fecha.Location = new System.Drawing.Point(271, 47);
+=======
+            this.fecha.Location = new System.Drawing.Point(64, 60);
+>>>>>>> 58a23b94f706ac8c7efb5a49ca56b424aaed7ade
             this.fecha.Name = "fecha";
             this.fecha.Size = new System.Drawing.Size(22, 31);
             this.fecha.TabIndex = 0;
             this.fecha.Text = ".";
+<<<<<<< HEAD
+=======
+            this.fecha.Click += new System.EventHandler(this.fecha_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(255, 255);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(82, 37);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+>>>>>>> 58a23b94f706ac8c7efb5a49ca56b424aaed7ade
             // 
             // Form6
             // 
