@@ -1,0 +1,14 @@
+C:\Desarrollos\C#\Escript y practicas locales\practica de forms\bin\Debug\practica de forms.exe.config
+C:\Desarrollos\C#\Escript y practicas locales\practica de forms\bin\Debug\practica de forms.exe
+C:\Desarrollos\C#\Escript y practicas locales\practica de forms\bin\Debug\practica de forms.pdb
+C:\Desarrollos\C#\Escript y practicas locales\practica de forms\obj\Debug\practica de forms.csproj.AssemblyReference.cache
+C:\Desarrollos\C#\Escript y practicas locales\practica de forms\obj\Debug\practica_de_forms.Form1.resources
+C:\Desarrollos\C#\Escript y practicas locales\practica de forms\obj\Debug\practica_de_forms.Properties.Resources.resources
+C:\Desarrollos\C#\Escript y practicas locales\practica de forms\obj\Debug\practica de forms.csproj.GenerateResource.cache
+C:\Desarrollos\C#\Escript y practicas locales\practica de forms\obj\Debug\practica de forms.csproj.CoreCompileInputs.cache
+C:\Desarrollos\C#\Escript y practicas locales\practica de forms\obj\Debug\practica de forms.exe
+C:\Desarrollos\C#\Escript y practicas locales\practica de forms\obj\Debug\practica de forms.pdb
+C:\Desarrollos\C#\Escript y practicas locales\practica de forms\obj\Debug\practica_de_forms.Form2.resources
+C:\Desarrollos\C#\Escript y practicas locales\practica de forms\obj\Debug\practica_de_forms.Form3.resources
+C:\Desarrollos\C#\Escript y practicas locales\practica de forms\obj\Debug\practica_de_forms.Form4.resources
+C:\Desarrollos\C#\Escript y practicas locales\practica de forms\obj\Debug\practica_de_forms.Form5.resources
