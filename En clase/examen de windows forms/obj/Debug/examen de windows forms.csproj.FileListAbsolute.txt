@@ -1,0 +1,11 @@
+C:\Users\carlo\Desktop\examen de windows forms\bin\Debug\examen de windows forms.exe.config
+C:\Users\carlo\Desktop\examen de windows forms\bin\Debug\examen de windows forms.exe
+C:\Users\carlo\Desktop\examen de windows forms\bin\Debug\examen de windows forms.pdb
+C:\Users\carlo\Desktop\examen de windows forms\obj\Debug\examen de windows forms.csproj.AssemblyReference.cache
+C:\Users\carlo\Desktop\examen de windows forms\obj\Debug\examen_de_windows_forms.Form1.resources
+C:\Users\carlo\Desktop\examen de windows forms\obj\Debug\examen_de_windows_forms.Form2.resources
+C:\Users\carlo\Desktop\examen de windows forms\obj\Debug\examen_de_windows_forms.Properties.Resources.resources
+C:\Users\carlo\Desktop\examen de windows forms\obj\Debug\examen de windows forms.csproj.GenerateResource.cache
+C:\Users\carlo\Desktop\examen de windows forms\obj\Debug\examen de windows forms.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Desktop\examen de windows forms\obj\Debug\examen de windows forms.exe
+C:\Users\carlo\Desktop\examen de windows forms\obj\Debug\examen de windows forms.pdb
