@@ -1,0 +1,9 @@
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\bin\Debug\practicas.exe.config
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\bin\Debug\practicas.exe
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\bin\Debug\practicas.pdb
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.csproj.AssemblyReference.cache
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.MainForm.resources
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.csproj.GenerateResource.cache
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.csproj.CoreCompileInputs.cache
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.exe
+E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.pdb
