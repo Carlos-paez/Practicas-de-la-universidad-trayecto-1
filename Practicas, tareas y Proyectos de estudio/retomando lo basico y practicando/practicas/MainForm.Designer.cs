@@ -42,7 +42,6 @@ namespace practicas
             this.panel2 = new System.Windows.Forms.Panel();
             this.Pestañas = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.otro = new System.Windows.Forms.RadioButton();
@@ -58,7 +57,12 @@ namespace practicas
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.Level = new System.Windows.Forms.ComboBox();
+            this.alias = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -73,14 +77,10 @@ namespace practicas
             this.label10 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.alias = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.Level = new System.Windows.Forms.ComboBox();
-            this.label12 = new System.Windows.Forms.Label();
             this.Pestañas.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -122,19 +122,6 @@ namespace practicas
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Usuario Estandar";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.panel4);
-            this.tabPage2.Controls.Add(this.button3);
-            this.tabPage2.Controls.Add(this.button4);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(498, 261);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Usuario Administrador";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
@@ -273,6 +260,7 @@ namespace practicas
             this.button2.TabIndex = 6;
             this.button2.Text = "Cerrar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // button1
             // 
@@ -283,6 +271,20 @@ namespace practicas
             this.button1.TabIndex = 5;
             this.button1.Text = "Enviar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.panel4);
+            this.tabPage2.Controls.Add(this.button3);
+            this.tabPage2.Controls.Add(this.button4);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(498, 261);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Usuario Administrador";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // panel4
             // 
@@ -307,6 +309,43 @@ namespace practicas
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(484, 223);
             this.panel4.TabIndex = 10;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(41, 173);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(90, 13);
+            this.label12.TabIndex = 31;
+            this.label12.Text = "Nivel de permisos";
+            // 
+            // Level
+            // 
+            this.Level.FormattingEnabled = true;
+            this.Level.Items.AddRange(new object[] {
+            "Elicios ",
+            "Olimpo",
+            "Valhala"});
+            this.Level.Location = new System.Drawing.Point(20, 187);
+            this.Level.Name = "Level";
+            this.Level.Size = new System.Drawing.Size(133, 21);
+            this.Level.TabIndex = 30;
+            // 
+            // alias
+            // 
+            this.alias.Location = new System.Drawing.Point(18, 142);
+            this.alias.Name = "alias";
+            this.alias.Size = new System.Drawing.Size(135, 20);
+            this.alias.TabIndex = 29;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(72, 126);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(29, 13);
+            this.label11.TabIndex = 28;
+            this.label11.Text = "Alias";
             // 
             // label6
             // 
@@ -428,6 +467,7 @@ namespace practicas
             this.button3.TabIndex = 9;
             this.button3.Text = "Cerrar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -439,43 +479,6 @@ namespace practicas
             this.button4.Text = "Enviar";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // alias
-            // 
-            this.alias.Location = new System.Drawing.Point(18, 142);
-            this.alias.Name = "alias";
-            this.alias.Size = new System.Drawing.Size(135, 20);
-            this.alias.TabIndex = 29;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(72, 126);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(29, 13);
-            this.label11.TabIndex = 28;
-            this.label11.Text = "Alias";
-            // 
-            // Level
-            // 
-            this.Level.FormattingEnabled = true;
-            this.Level.Items.AddRange(new object[] {
-            "Elicios ",
-            "Olimpo",
-            "Valhala"});
-            this.Level.Location = new System.Drawing.Point(20, 187);
-            this.Level.Name = "Level";
-            this.Level.Size = new System.Drawing.Size(133, 21);
-            this.Level.TabIndex = 30;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(41, 173);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(90, 13);
-            this.label12.TabIndex = 31;
-            this.label12.Text = "Nivel de permisos";
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -484,13 +487,12 @@ namespace practicas
             this.Controls.Add(this.Pestañas);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "MainForm";
             this.Text = "practicas";
             this.Pestañas.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.ResumeLayout(false);

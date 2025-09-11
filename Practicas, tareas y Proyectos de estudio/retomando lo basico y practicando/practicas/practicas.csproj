@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>practicas</RootNamespace>
     <AssemblyName>practicas</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <TargetFrameworkProfile />
   </PropertyGroup>

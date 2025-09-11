@@ -7,3 +7,12 @@ E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Pro
 E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.csproj.CoreCompileInputs.cache
 E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.exe
 E:\Desarrollos\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.pdb
+C:\Users\cpaez\Downloads\Carlos Páez\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.csproj.AssemblyReference.cache
+C:\Users\cpaez\Downloads\Carlos Páez\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.MainForm.resources
+C:\Users\cpaez\Downloads\Carlos Páez\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.csproj.GenerateResource.cache
+C:\Users\cpaez\Downloads\Carlos Páez\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.csproj.CoreCompileInputs.cache
+C:\Users\cpaez\Downloads\Carlos Páez\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.exe
+C:\Users\cpaez\Downloads\Carlos Páez\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.pdb
+C:\Users\cpaez\Downloads\Carlos Páez\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\bin\Debug\practicas.exe.config
+C:\Users\cpaez\Downloads\Carlos Páez\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\bin\Debug\practicas.exe
+C:\Users\cpaez\Downloads\Carlos Páez\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\bin\Debug\practicas.pdb
