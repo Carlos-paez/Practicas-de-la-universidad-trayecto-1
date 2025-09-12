@@ -38,7 +38,9 @@ namespace practicas
 		/// </summary>
 		private void InitializeComponent()
 		{
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Pestañas = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -77,6 +79,8 @@ namespace practicas
             this.label10 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.Pestañas.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -87,10 +91,23 @@ namespace practicas
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.panel1.Controls.Add(this.label13);
+            this.panel1.Controls.Add(this.button6);
             this.panel1.Location = new System.Drawing.Point(1, 1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(57, 336);
             this.panel1.TabIndex = 0;
+            // 
+            // button6
+            // 
+            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Location = new System.Drawing.Point(11, 89);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(42, 34);
+            this.button6.TabIndex = 0;
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // panel2
             // 
@@ -313,7 +330,7 @@ namespace practicas
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(41, 173);
+            this.label12.Location = new System.Drawing.Point(320, 148);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(90, 13);
             this.label12.TabIndex = 31;
@@ -326,14 +343,14 @@ namespace practicas
             "Elicios ",
             "Olimpo",
             "Valhala"});
-            this.Level.Location = new System.Drawing.Point(20, 187);
+            this.Level.Location = new System.Drawing.Point(299, 162);
             this.Level.Name = "Level";
             this.Level.Size = new System.Drawing.Size(133, 21);
             this.Level.TabIndex = 30;
             // 
             // alias
             // 
-            this.alias.Location = new System.Drawing.Point(18, 142);
+            this.alias.Location = new System.Drawing.Point(18, 164);
             this.alias.Name = "alias";
             this.alias.Size = new System.Drawing.Size(135, 20);
             this.alias.TabIndex = 29;
@@ -341,7 +358,7 @@ namespace practicas
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(72, 126);
+            this.label11.Location = new System.Drawing.Point(72, 148);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(29, 13);
             this.label11.TabIndex = 28;
@@ -353,7 +370,7 @@ namespace practicas
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(252, 60);
+            this.label6.Location = new System.Drawing.Point(319, 53);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(63, 20);
             this.label6.TabIndex = 27;
@@ -362,7 +379,7 @@ namespace practicas
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(253, 118);
+            this.radioButton1.Location = new System.Drawing.Point(287, 102);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(50, 17);
             this.radioButton1.TabIndex = 26;
@@ -373,7 +390,7 @@ namespace practicas
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(253, 100);
+            this.radioButton2.Location = new System.Drawing.Point(369, 79);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(51, 17);
             this.radioButton2.TabIndex = 25;
@@ -384,7 +401,7 @@ namespace practicas
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(253, 81);
+            this.radioButton3.Location = new System.Drawing.Point(287, 79);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(62, 17);
             this.radioButton3.TabIndex = 24;
@@ -410,7 +427,7 @@ namespace practicas
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(18, 103);
+            this.textBox1.Location = new System.Drawing.Point(18, 116);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(135, 20);
             this.textBox1.TabIndex = 21;
@@ -418,7 +435,7 @@ namespace practicas
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(72, 87);
+            this.label8.Location = new System.Drawing.Point(72, 100);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(17, 13);
             this.label8.TabIndex = 20;
@@ -426,7 +443,7 @@ namespace practicas
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(20, 62);
+            this.textBox2.Location = new System.Drawing.Point(20, 76);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(133, 20);
             this.textBox2.TabIndex = 19;
@@ -434,7 +451,7 @@ namespace practicas
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(69, 46);
+            this.label9.Location = new System.Drawing.Point(57, 60);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(44, 13);
             this.label9.TabIndex = 18;
@@ -452,7 +469,7 @@ namespace practicas
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(69, 9);
+            this.label10.Location = new System.Drawing.Point(57, 9);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(44, 13);
             this.label10.TabIndex = 16;
@@ -478,6 +495,16 @@ namespace practicas
             this.button4.TabIndex = 8;
             this.button4.Text = "Enviar";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(11, 126);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(33, 13);
+            this.label13.TabIndex = 1;
+            this.label13.Text = "Login";
             // 
             // MainForm
             // 
@@ -488,6 +515,8 @@ namespace practicas
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Text = "practicas";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.Pestañas.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
@@ -536,5 +565,7 @@ namespace practicas
         private System.Windows.Forms.TextBox alias;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label13;
     }
 }

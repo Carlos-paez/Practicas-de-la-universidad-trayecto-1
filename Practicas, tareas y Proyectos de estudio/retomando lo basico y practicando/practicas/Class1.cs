@@ -74,15 +74,20 @@ namespace practicas
         private string Apellido;
         private string CI;
         private string Genero;
-        DateTime FechaNacimiento;
+        private DateTime FechaNacimiento;
+        private string Permisos;
+        private string Alias;
 
-        public administradores(string nombre, string apellido, string ci, string genero, DateTime fechaNacimiento)
+        public administradores(string nombre, string apellido, string ci, string genero, DateTime fechaNacimiento, string
+            permisos, string alias)
         {
             this.Nombre = nombre;
             this.Apellido = apellido;
             this.CI = ci;
             this.Genero = genero;
             this.FechaNacimiento = fechaNacimiento;
+            this.Permisos = permisos;
+            this.Alias = alias;
         }
 
         public string GetNombre()
@@ -129,5 +134,24 @@ namespace practicas
         {
             this.FechaNacimiento = fechaNacimiento;
         }
+
+        public string GetPermisos()
+        {
+            return Permisos;
+        }
+        public void SetPermisos(string permisos)
+        {
+            this.Permisos = permisos;
+        }
+
+        public string GetAlias()
+        {
+            return Alias;
+        }
+        public void SetAlias(string alias)
+        {
+            this.Alias = alias;
+        }
     }
+
 }
