@@ -17,11 +17,12 @@ namespace practicas
         DateTime FechaNacimiento;
         string Permisos = "";
         string Alias = "";
+
         string Clave = "";
 
         //Declaración de el arreglo
-        private usuarios[] users = new usuarios[10];
-        private administradores[] admins = new  administradores[3];
+        usuarios[] users = new usuarios[10];
+        administradores[] admins = new  administradores[3];
 
         public MainForm()
         {
@@ -173,7 +174,7 @@ namespace practicas
         private void button6_Click(object sender, EventArgs e)
         {
 
-            Form1 login = new Form1(users, admins);
+            Form1 login = new Form1(this.users, this.admins);
             login.Show();
         }
     }

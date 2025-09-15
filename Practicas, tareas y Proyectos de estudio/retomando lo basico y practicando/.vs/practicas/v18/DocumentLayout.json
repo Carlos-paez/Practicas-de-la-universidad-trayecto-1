@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\cpaez\\Downloads\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\retomando lo basico y practicando\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9ECE103-B847-4074-8278-46024C536CBF}|practicas\\practicas.csproj|c:\\users\\cpaez\\downloads\\carlos\\ficheros\\dev\\.net\\practicas-de-la-universidad-trayecto-1\\practicas, tareas y proyectos de estudio\\retomando lo basico y practicando\\practicas\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9ECE103-B847-4074-8278-46024C536CBF}|practicas\\practicas.csproj|solutionrelative:practicas\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9ECE103-B847-4074-8278-46024C536CBF}|practicas\\practicas.csproj|C:\\Users\\cpaez\\Downloads\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\retomando lo basico y practicando\\practicas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9ECE103-B847-4074-8278-46024C536CBF}|practicas\\practicas.csproj|solutionrelative:practicas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9ECE103-B847-4074-8278-46024C536CBF}|practicas\\practicas.csproj|c:\\users\\cpaez\\downloads\\carlos\\ficheros\\dev\\.net\\practicas-de-la-universidad-trayecto-1\\practicas, tareas y proyectos de estudio\\retomando lo basico y practicando\\practicas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9ECE103-B847-4074-8278-46024C536CBF}|practicas\\practicas.csproj|solutionrelative:practicas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9ECE103-B847-4074-8278-46024C536CBF}|practicas\\practicas.csproj|c:\\users\\cpaez\\downloads\\carlos\\ficheros\\dev\\.net\\practicas-de-la-universidad-trayecto-1\\practicas, tareas y proyectos de estudio\\retomando lo basico y practicando\\practicas\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9ECE103-B847-4074-8278-46024C536CBF}|practicas\\practicas.csproj|solutionrelative:practicas\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\cpaez\\Downloads\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\retomando lo basico y practicando\\practicas\\MainForm.cs",
               "RelativeDocumentMoniker": "practicas\\MainForm.cs",
               "ToolTip": "C:\\Users\\cpaez\\Downloads\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\retomando lo basico y practicando\\practicas\\MainForm.cs",
               "RelativeToolTip": "practicas\\MainForm.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T19:44:01.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\cpaez\\Downloads\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\retomando lo basico y practicando\\practicas\\Form1.cs",
               "RelativeDocumentMoniker": "practicas\\Form1.cs",
               "ToolTip": "C:\\Users\\cpaez\\Downloads\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\retomando lo basico y practicando\\practicas\\Form1.cs",
               "RelativeToolTip": "practicas\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwDUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T20:10:21.001Z",
               "EditorCaption": ""
