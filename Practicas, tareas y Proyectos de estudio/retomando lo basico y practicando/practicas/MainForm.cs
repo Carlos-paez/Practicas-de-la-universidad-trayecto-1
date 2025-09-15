@@ -17,10 +17,11 @@ namespace practicas
         DateTime FechaNacimiento;
         string Permisos = "";
         string Alias = "";
+        string Clave = "";
 
         //Declaración de el arreglo
-        usuarios[] users = new usuarios[10];
-        administradores[] admins = new  administradores[3];
+        private usuarios[] users = new usuarios[10];
+        private administradores[] admins = new  administradores[3];
 
         public MainForm()
         {
@@ -53,6 +54,8 @@ namespace practicas
                     Apellido = LastName.Text;
                     CI = Cedula.Text;
                     FechaNacimiento = DateTime.Parse(Nacimineto.Text);
+                    Clave = pass.Text;
+
 
                     //Condicional para determinar el genero
                     if (hombre.Checked = true)
@@ -69,9 +72,9 @@ namespace practicas
                     }
 
                     //Creación del objeto y asignación al arreglo
-                    if (Nombre != null && Apellido != null && CI != null && FechaNacimiento != null && Genero != null)
+                    if (Nombre != null && Apellido != null && CI != null && FechaNacimiento != null && Genero != null && Clave != null)
                     {
-                        usuarios user = new usuarios(Nombre, Apellido, CI, Genero, FechaNacimiento);
+                        usuarios user = new usuarios(Nombre, Apellido, CI, Genero, FechaNacimiento, Clave);
                         users[i] = user;
                     }
                     else
@@ -114,6 +117,7 @@ namespace practicas
                     FechaNacimiento = DateTime.Parse(Nacimineto.Text);
                     Permisos = Level.Text;
                     Alias = alias.Text;
+                    Clave = pass.Text;
 
 
                     //Condicional para determinar el genero
@@ -132,9 +136,9 @@ namespace practicas
 
 
                     //Creación del objeto y asignación al arreglo
-                    if (Nombre != null && Apellido != null && CI != null && FechaNacimiento != null && Genero != null && Permisos != null && Alias != null)
+                    if (Nombre != null && Apellido != null && CI != null && FechaNacimiento != null && Genero != null && Permisos != null && Alias != null && Clave != null)
                     {
-                        administradores admin = new administradores(Nombre, Apellido, CI, Genero, FechaNacimiento, Permisos, Alias);
+                        administradores admin = new administradores(Nombre, Apellido, CI, Genero, FechaNacimiento, Permisos, Alias, Clave);
                         admins[i] = admin;
                     }
 
@@ -168,6 +172,7 @@ namespace practicas
         //Boton Login
         private void button6_Click(object sender, EventArgs e)
         {
+
             Form1 login = new Form1(users, admins);
             login.Show();
         }

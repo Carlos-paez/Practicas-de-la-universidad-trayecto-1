@@ -7,19 +7,21 @@ namespace practicas
 {
     public class usuarios
     {
-        string Nombre;
-        string Apellido;
-        string CI;
-        string Genero;
-        DateTime FechaNacimiento;
+        private string Nombre;
+        private string Apellido;
+        private string CI;
+        private string Genero;
+        private DateTime FechaNacimiento;
+        private string Password;
 
-        public usuarios(string nombre, string apellido, string ci, string genero, DateTime fechaNacimiento)
+        public usuarios(string nombre, string apellido, string ci, string genero, DateTime fechaNacimiento, string password)
         {
-            this.Nombre= nombre;
+            this.Nombre = nombre;
             this.Apellido = apellido;
             this.CI = ci;
             this.Genero = genero;
             this.FechaNacimiento = fechaNacimiento;
+            this.Password = password;
         }
 
         public string GetNombre()
@@ -66,6 +68,15 @@ namespace practicas
         {
             this.FechaNacimiento = fechaNacimiento;
         }
+
+        public string GetPassword() 
+        {
+            return Password;
+        }
+        public void SetPassword(string password)
+        {
+            this.Password = password;
+        }
     }
 
     public class administradores
@@ -77,9 +88,10 @@ namespace practicas
         private DateTime FechaNacimiento;
         private string Permisos;
         private string Alias;
+        private string Password;
 
         public administradores(string nombre, string apellido, string ci, string genero, DateTime fechaNacimiento, string
-            permisos, string alias)
+            permisos, string alias, string password)
         {
             this.Nombre = nombre;
             this.Apellido = apellido;
@@ -88,6 +100,7 @@ namespace practicas
             this.FechaNacimiento = fechaNacimiento;
             this.Permisos = permisos;
             this.Alias = alias;
+            this.Password = password;
         }
 
         public string GetNombre()
@@ -152,6 +165,15 @@ namespace practicas
         {
             this.Alias = alias;
         }
-    }
+
+		public string GetPassword()
+		{
+			return Password;
+		}
+		public void SetPassword(string password)
+		{
+			this.Password = password;
+		}
+	}
 
 }
