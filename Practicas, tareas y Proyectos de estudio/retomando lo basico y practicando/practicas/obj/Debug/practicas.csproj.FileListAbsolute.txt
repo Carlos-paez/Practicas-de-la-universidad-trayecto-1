@@ -29,3 +29,4 @@ C:\Users\cpaez\Downloads\carlos\ficheros\DEV\.NET\Practicas-de-la-universidad-tr
 C:\Users\cpaez\Downloads\carlos\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.csproj.CoreCompileInputs.cache
 C:\Users\cpaez\Downloads\carlos\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.exe
 C:\Users\cpaez\Downloads\carlos\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.pdb
+C:\Users\cpaez\Downloads\carlos\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\retomando lo basico y practicando\practicas\obj\Debug\practicas.Form2.resources

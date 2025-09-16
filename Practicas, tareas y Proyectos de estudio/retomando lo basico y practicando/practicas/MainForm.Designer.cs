@@ -65,26 +65,26 @@ namespace practicas
 			this.button1 = new System.Windows.Forms.Button();
 			this.tabPage2 = new System.Windows.Forms.TabPage();
 			this.panel4 = new System.Windows.Forms.Panel();
+			this.admin_pass = new System.Windows.Forms.TextBox();
+			this.label16 = new System.Windows.Forms.Label();
 			this.label12 = new System.Windows.Forms.Label();
 			this.Level = new System.Windows.Forms.ComboBox();
 			this.alias = new System.Windows.Forms.TextBox();
 			this.label11 = new System.Windows.Forms.Label();
 			this.label6 = new System.Windows.Forms.Label();
-			this.radioButton1 = new System.Windows.Forms.RadioButton();
-			this.radioButton2 = new System.Windows.Forms.RadioButton();
-			this.radioButton3 = new System.Windows.Forms.RadioButton();
-			this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+			this.admin_otro = new System.Windows.Forms.RadioButton();
+			this.admin_mujer = new System.Windows.Forms.RadioButton();
+			this.admin_hombre = new System.Windows.Forms.RadioButton();
+			this.admin_fecha = new System.Windows.Forms.DateTimePicker();
 			this.label7 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.admin_ci = new System.Windows.Forms.TextBox();
 			this.label8 = new System.Windows.Forms.Label();
-			this.textBox2 = new System.Windows.Forms.TextBox();
+			this.admin_apellido = new System.Windows.Forms.TextBox();
 			this.label9 = new System.Windows.Forms.Label();
-			this.textBox3 = new System.Windows.Forms.TextBox();
+			this.adminName = new System.Windows.Forms.TextBox();
 			this.label10 = new System.Windows.Forms.Label();
 			this.button3 = new System.Windows.Forms.Button();
 			this.button4 = new System.Windows.Forms.Button();
-			this.textBox4 = new System.Windows.Forms.TextBox();
-			this.label16 = new System.Windows.Forms.Label();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
 			this.Pestañas.SuspendLayout();
@@ -350,28 +350,44 @@ namespace practicas
 			// panel4
 			// 
 			this.panel4.BackColor = System.Drawing.Color.DarkGray;
-			this.panel4.Controls.Add(this.textBox4);
+			this.panel4.Controls.Add(this.admin_pass);
 			this.panel4.Controls.Add(this.label16);
 			this.panel4.Controls.Add(this.label12);
 			this.panel4.Controls.Add(this.Level);
 			this.panel4.Controls.Add(this.alias);
 			this.panel4.Controls.Add(this.label11);
 			this.panel4.Controls.Add(this.label6);
-			this.panel4.Controls.Add(this.radioButton1);
-			this.panel4.Controls.Add(this.radioButton2);
-			this.panel4.Controls.Add(this.radioButton3);
-			this.panel4.Controls.Add(this.dateTimePicker1);
+			this.panel4.Controls.Add(this.admin_otro);
+			this.panel4.Controls.Add(this.admin_mujer);
+			this.panel4.Controls.Add(this.admin_hombre);
+			this.panel4.Controls.Add(this.admin_fecha);
 			this.panel4.Controls.Add(this.label7);
-			this.panel4.Controls.Add(this.textBox1);
+			this.panel4.Controls.Add(this.admin_ci);
 			this.panel4.Controls.Add(this.label8);
-			this.panel4.Controls.Add(this.textBox2);
+			this.panel4.Controls.Add(this.admin_apellido);
 			this.panel4.Controls.Add(this.label9);
-			this.panel4.Controls.Add(this.textBox3);
+			this.panel4.Controls.Add(this.adminName);
 			this.panel4.Controls.Add(this.label10);
 			this.panel4.Location = new System.Drawing.Point(7, 4);
 			this.panel4.Name = "panel4";
 			this.panel4.Size = new System.Drawing.Size(484, 223);
 			this.panel4.TabIndex = 10;
+			// 
+			// admin_pass
+			// 
+			this.admin_pass.Location = new System.Drawing.Point(20, 187);
+			this.admin_pass.Name = "admin_pass";
+			this.admin_pass.Size = new System.Drawing.Size(133, 20);
+			this.admin_pass.TabIndex = 33;
+			// 
+			// label16
+			// 
+			this.label16.AutoSize = true;
+			this.label16.Location = new System.Drawing.Point(28, 171);
+			this.label16.Name = "label16";
+			this.label16.Size = new System.Drawing.Size(115, 13);
+			this.label16.TabIndex = 32;
+			this.label16.Text = "Contraseña de Usuario";
 			// 
 			// label12
 			// 
@@ -422,45 +438,45 @@ namespace practicas
 			this.label6.TabIndex = 27;
 			this.label6.Text = "Genero";
 			// 
-			// radioButton1
+			// admin_otro
 			// 
-			this.radioButton1.AutoSize = true;
-			this.radioButton1.Location = new System.Drawing.Point(287, 102);
-			this.radioButton1.Name = "radioButton1";
-			this.radioButton1.Size = new System.Drawing.Size(50, 17);
-			this.radioButton1.TabIndex = 26;
-			this.radioButton1.TabStop = true;
-			this.radioButton1.Text = "Otros";
-			this.radioButton1.UseVisualStyleBackColor = true;
+			this.admin_otro.AutoSize = true;
+			this.admin_otro.Location = new System.Drawing.Point(287, 102);
+			this.admin_otro.Name = "admin_otro";
+			this.admin_otro.Size = new System.Drawing.Size(50, 17);
+			this.admin_otro.TabIndex = 26;
+			this.admin_otro.TabStop = true;
+			this.admin_otro.Text = "Otros";
+			this.admin_otro.UseVisualStyleBackColor = true;
 			// 
-			// radioButton2
+			// admin_mujer
 			// 
-			this.radioButton2.AutoSize = true;
-			this.radioButton2.Location = new System.Drawing.Point(369, 79);
-			this.radioButton2.Name = "radioButton2";
-			this.radioButton2.Size = new System.Drawing.Size(51, 17);
-			this.radioButton2.TabIndex = 25;
-			this.radioButton2.TabStop = true;
-			this.radioButton2.Text = "Mujer";
-			this.radioButton2.UseVisualStyleBackColor = true;
+			this.admin_mujer.AutoSize = true;
+			this.admin_mujer.Location = new System.Drawing.Point(369, 79);
+			this.admin_mujer.Name = "admin_mujer";
+			this.admin_mujer.Size = new System.Drawing.Size(51, 17);
+			this.admin_mujer.TabIndex = 25;
+			this.admin_mujer.TabStop = true;
+			this.admin_mujer.Text = "Mujer";
+			this.admin_mujer.UseVisualStyleBackColor = true;
 			// 
-			// radioButton3
+			// admin_hombre
 			// 
-			this.radioButton3.AutoSize = true;
-			this.radioButton3.Location = new System.Drawing.Point(287, 79);
-			this.radioButton3.Name = "radioButton3";
-			this.radioButton3.Size = new System.Drawing.Size(62, 17);
-			this.radioButton3.TabIndex = 24;
-			this.radioButton3.TabStop = true;
-			this.radioButton3.Text = "Hombre";
-			this.radioButton3.UseVisualStyleBackColor = true;
+			this.admin_hombre.AutoSize = true;
+			this.admin_hombre.Location = new System.Drawing.Point(287, 79);
+			this.admin_hombre.Name = "admin_hombre";
+			this.admin_hombre.Size = new System.Drawing.Size(62, 17);
+			this.admin_hombre.TabIndex = 24;
+			this.admin_hombre.TabStop = true;
+			this.admin_hombre.Text = "Hombre";
+			this.admin_hombre.UseVisualStyleBackColor = true;
 			// 
-			// dateTimePicker1
+			// admin_fecha
 			// 
-			this.dateTimePicker1.Location = new System.Drawing.Point(256, 25);
-			this.dateTimePicker1.Name = "dateTimePicker1";
-			this.dateTimePicker1.Size = new System.Drawing.Size(213, 20);
-			this.dateTimePicker1.TabIndex = 23;
+			this.admin_fecha.Location = new System.Drawing.Point(256, 25);
+			this.admin_fecha.Name = "admin_fecha";
+			this.admin_fecha.Size = new System.Drawing.Size(213, 20);
+			this.admin_fecha.TabIndex = 23;
 			// 
 			// label7
 			// 
@@ -471,12 +487,12 @@ namespace practicas
 			this.label7.TabIndex = 22;
 			this.label7.Text = "Fecha de Nacimiento ";
 			// 
-			// textBox1
+			// admin_ci
 			// 
-			this.textBox1.Location = new System.Drawing.Point(18, 104);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(135, 20);
-			this.textBox1.TabIndex = 21;
+			this.admin_ci.Location = new System.Drawing.Point(18, 104);
+			this.admin_ci.Name = "admin_ci";
+			this.admin_ci.Size = new System.Drawing.Size(135, 20);
+			this.admin_ci.TabIndex = 21;
 			// 
 			// label8
 			// 
@@ -487,12 +503,12 @@ namespace practicas
 			this.label8.TabIndex = 20;
 			this.label8.Text = "CI";
 			// 
-			// textBox2
+			// admin_apellido
 			// 
-			this.textBox2.Location = new System.Drawing.Point(20, 64);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(133, 20);
-			this.textBox2.TabIndex = 19;
+			this.admin_apellido.Location = new System.Drawing.Point(20, 64);
+			this.admin_apellido.Name = "admin_apellido";
+			this.admin_apellido.Size = new System.Drawing.Size(133, 20);
+			this.admin_apellido.TabIndex = 19;
 			// 
 			// label9
 			// 
@@ -503,12 +519,12 @@ namespace practicas
 			this.label9.TabIndex = 18;
 			this.label9.Text = "Apellido";
 			// 
-			// textBox3
+			// adminName
 			// 
-			this.textBox3.Location = new System.Drawing.Point(20, 25);
-			this.textBox3.Name = "textBox3";
-			this.textBox3.Size = new System.Drawing.Size(133, 20);
-			this.textBox3.TabIndex = 17;
+			this.adminName.Location = new System.Drawing.Point(20, 25);
+			this.adminName.Name = "adminName";
+			this.adminName.Size = new System.Drawing.Size(133, 20);
+			this.adminName.TabIndex = 17;
 			// 
 			// label10
 			// 
@@ -542,22 +558,6 @@ namespace practicas
 			this.button4.Text = "Enviar";
 			this.button4.UseVisualStyleBackColor = true;
 			this.button4.Click += new System.EventHandler(this.button4_Click);
-			// 
-			// textBox4
-			// 
-			this.textBox4.Location = new System.Drawing.Point(20, 187);
-			this.textBox4.Name = "textBox4";
-			this.textBox4.Size = new System.Drawing.Size(133, 20);
-			this.textBox4.TabIndex = 33;
-			// 
-			// label16
-			// 
-			this.label16.AutoSize = true;
-			this.label16.Location = new System.Drawing.Point(28, 171);
-			this.label16.Name = "label16";
-			this.label16.Size = new System.Drawing.Size(115, 13);
-			this.label16.TabIndex = 32;
-			this.label16.Text = "Contraseña de Usuario";
 			// 
 			// MainForm
 			// 
@@ -603,16 +603,16 @@ namespace practicas
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.RadioButton admin_otro;
+        private System.Windows.Forms.RadioButton admin_mujer;
+        private System.Windows.Forms.RadioButton admin_hombre;
+        private System.Windows.Forms.DateTimePicker admin_fecha;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox admin_ci;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox admin_apellido;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox adminName;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
@@ -625,7 +625,7 @@ namespace practicas
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox pass;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox admin_pass;
         private System.Windows.Forms.Label label16;
     }
 }

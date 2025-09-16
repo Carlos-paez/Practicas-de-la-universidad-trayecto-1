@@ -17,8 +17,8 @@ namespace practicas
         DateTime FechaNacimiento;
         string Permisos = "";
         string Alias = "";
-
         string Clave = "";
+        int id_user = 0;
 
         //Declaración de el arreglo
         usuarios[] users = new usuarios[10];
@@ -87,7 +87,10 @@ namespace practicas
                     Name.Clear();
                     LastName.Clear();
                     Cedula.Clear();
-                }
+                    pass.Clear();
+
+					id_user++;
+				}
             }
 
             catch (ArgumentException fe) {
@@ -101,6 +104,7 @@ namespace practicas
             {
                 MessageBox.Show("Error de ejecución" + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
         }
 
         //Boton de enviar administradores
@@ -112,21 +116,22 @@ namespace practicas
                 {
 
                     //Asignación de variables
-                    Nombre = Name.Text;
-                    Apellido = LastName.Text;
-                    CI = Cedula.Text;
-                    FechaNacimiento = DateTime.Parse(Nacimineto.Text);
+                    Nombre = adminName.Text;
+                    Apellido = admin_apellido.Text;
+                    CI = admin_ci.Text;
+                    FechaNacimiento = DateTime.Parse(admin_fecha.Text);
                     Permisos = Level.Text;
                     Alias = alias.Text;
-                    Clave = pass.Text;
+                    Clave = admin_pass.Text;
+
 
 
                     //Condicional para determinar el genero
-                    if (hombre.Checked = true)
+                    if (admin_hombre.Checked = true)
                     {
                         Genero = "Hombre";
                     }
-                    else if (mujer.Checked = true)
+                    else if (admin_mujer.Checked = true)
                     {
                         Genero = "Mujer";
                     }
@@ -137,7 +142,7 @@ namespace practicas
 
 
                     //Creación del objeto y asignación al arreglo
-                    if (Nombre != null && Apellido != null && CI != null && FechaNacimiento != null && Genero != null && Permisos != null && Alias != null && Clave != null)
+                    if (Nombre != null && Apellido != null && CI != null && FechaNacimiento != null && Genero != null && Permisos != null && Alias != null && Clave != null && Level != null)
                     {
                         administradores admin = new administradores(Nombre, Apellido, CI, Genero, FechaNacimiento, Permisos, Alias, Clave);
                         admins[i] = admin;
@@ -149,10 +154,11 @@ namespace practicas
                     }
 
                     //Limpieza de los campos 
-                    Name.Clear();
-                    LastName.Clear();
-                    Cedula.Clear();
+                    adminName.Clear();
+                    admin_apellido.Clear();
+                    admin_ci.Clear();
                     alias.Clear();
+                    admin_pass.Clear();
                 }
             }
 
