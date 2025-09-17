@@ -5,8 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+using System.Threading.Tasks;using System.Windows.Forms;
 
 namespace practicas
 {
@@ -15,6 +14,7 @@ namespace practicas
 
 		private usuarios[] users;
 		private administradores[] admins;
+		string all_usuarios;
 
 		public Form2(usuarios[] users, administradores[] admins)
         {
@@ -22,5 +22,15 @@ namespace practicas
 			this.users = users;
 			this.admins = admins;
 		}
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+			foreach (usuarios usuario in users)
+			{
+
+				MessageBox.Show(usuario.ToString());
+
+			}
+        }
     }
 }

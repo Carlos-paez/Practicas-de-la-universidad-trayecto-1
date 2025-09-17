@@ -18,7 +18,6 @@ namespace practicas
         string Permisos = "";
         string Alias = "";
         string Clave = "";
-        int id_user = 0;
 
         //Declaración de el arreglo
         usuarios[] users = new usuarios[10];
@@ -88,8 +87,6 @@ namespace practicas
                     LastName.Clear();
                     Cedula.Clear();
                     pass.Clear();
-
-					id_user++;
 				}
             }
 

@@ -47,6 +47,7 @@ namespace practicas
 			this.Pestañas = new System.Windows.Forms.TabControl();
 			this.tabPage1 = new System.Windows.Forms.TabPage();
 			this.panel3 = new System.Windows.Forms.Panel();
+			this.user_id = new System.Windows.Forms.Label();
 			this.pass = new System.Windows.Forms.TextBox();
 			this.label15 = new System.Windows.Forms.Label();
 			this.label5 = new System.Windows.Forms.Label();
@@ -85,6 +86,7 @@ namespace practicas
 			this.label10 = new System.Windows.Forms.Label();
 			this.button3 = new System.Windows.Forms.Button();
 			this.button4 = new System.Windows.Forms.Button();
+			this.label17 = new System.Windows.Forms.Label();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
 			this.Pestañas.SuspendLayout();
@@ -169,6 +171,8 @@ namespace practicas
 			// panel3
 			// 
 			this.panel3.BackColor = System.Drawing.Color.DarkGray;
+			this.panel3.Controls.Add(this.label17);
+			this.panel3.Controls.Add(this.user_id);
 			this.panel3.Controls.Add(this.pass);
 			this.panel3.Controls.Add(this.label15);
 			this.panel3.Controls.Add(this.label5);
@@ -187,6 +191,16 @@ namespace practicas
 			this.panel3.Name = "panel3";
 			this.panel3.Size = new System.Drawing.Size(484, 223);
 			this.panel3.TabIndex = 7;
+			// 
+			// user_id
+			// 
+			this.user_id.AutoSize = true;
+			this.user_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.user_id.Location = new System.Drawing.Point(402, 135);
+			this.user_id.Name = "user_id";
+			this.user_id.Size = new System.Drawing.Size(18, 20);
+			this.user_id.TabIndex = 30;
+			this.user_id.Text = "1";
 			// 
 			// pass
 			// 
@@ -207,7 +221,7 @@ namespace practicas
 			// label5
 			// 
 			this.label5.AutoSize = true;
-			this.label5.Location = new System.Drawing.Point(333, 90);
+			this.label5.Location = new System.Drawing.Point(266, 90);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(42, 13);
 			this.label5.TabIndex = 27;
@@ -216,7 +230,7 @@ namespace practicas
 			// otro
 			// 
 			this.otro.AutoSize = true;
-			this.otro.Location = new System.Drawing.Point(325, 170);
+			this.otro.Location = new System.Drawing.Point(258, 170);
 			this.otro.Name = "otro";
 			this.otro.Size = new System.Drawing.Size(50, 17);
 			this.otro.TabIndex = 26;
@@ -227,7 +241,7 @@ namespace practicas
 			// mujer
 			// 
 			this.mujer.AutoSize = true;
-			this.mujer.Location = new System.Drawing.Point(325, 138);
+			this.mujer.Location = new System.Drawing.Point(258, 138);
 			this.mujer.Name = "mujer";
 			this.mujer.Size = new System.Drawing.Size(51, 17);
 			this.mujer.TabIndex = 25;
@@ -238,7 +252,7 @@ namespace practicas
 			// hombre
 			// 
 			this.hombre.AutoSize = true;
-			this.hombre.Location = new System.Drawing.Point(325, 106);
+			this.hombre.Location = new System.Drawing.Point(258, 106);
 			this.hombre.Name = "hombre";
 			this.hombre.Size = new System.Drawing.Size(62, 17);
 			this.hombre.TabIndex = 24;
@@ -559,6 +573,15 @@ namespace practicas
 			this.button4.UseVisualStyleBackColor = true;
 			this.button4.Click += new System.EventHandler(this.button4_Click);
 			// 
+			// label17
+			// 
+			this.label17.AutoSize = true;
+			this.label17.Location = new System.Drawing.Point(365, 111);
+			this.label17.Name = "label17";
+			this.label17.Size = new System.Drawing.Size(84, 13);
+			this.label17.TabIndex = 31;
+			this.label17.Text = "ID de su usuario";
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -627,5 +650,7 @@ namespace practicas
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TextBox admin_pass;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label user_id;
+        private System.Windows.Forms.Label label17;
     }
 }
