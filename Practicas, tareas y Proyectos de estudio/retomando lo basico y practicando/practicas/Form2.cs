@@ -12,8 +12,8 @@ namespace practicas
 	public partial class Form2 : Form
     {
 
-		private usuarios[] users;
-		private administradores[] admins;
+		 usuarios[] users;
+		 administradores[] admins;
 		string all_usuarios;
 
 		public Form2(usuarios[] users, administradores[] admins)

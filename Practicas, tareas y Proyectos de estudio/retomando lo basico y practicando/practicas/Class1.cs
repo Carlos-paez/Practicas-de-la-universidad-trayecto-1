@@ -13,8 +13,14 @@ namespace practicas
         private string Genero;
         private DateTime FechaNacimiento;
         private string Password;
+        private Rol rol;
+        public enum Rol
+        { 
+            usuario,
+            administrador
+        }
 
-        public usuarios(string nombre, string apellido, string ci, string genero, DateTime fechaNacimiento, string password)
+        public usuarios(string nombre, string apellido, string ci, string genero, DateTime fechaNacimiento, string password,Rol rol)
         {
             this.Nombre = nombre;
             this.Apellido = apellido;
@@ -22,6 +28,7 @@ namespace practicas
             this.Genero = genero;
             this.FechaNacimiento = fechaNacimiento;
             this.Password = password;
+            this.rol = Rol.usuario;
         }
 
         public string GetNombre()
