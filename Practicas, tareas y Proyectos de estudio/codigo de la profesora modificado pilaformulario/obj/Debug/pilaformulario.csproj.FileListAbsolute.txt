@@ -1,0 +1,24 @@
+C:\Users\Personal\Documents\SharpDevelop Projects\pilaformulario\pilaformulario\obj\Debug\pilaformulario.csprojResolveAssemblyReference.cache
+C:\Users\Personal\Documents\SharpDevelop Projects\pilaformulario\pilaformulario\obj\Debug\pilaformulario.MainForm.resources
+C:\Users\Personal\Documents\SharpDevelop Projects\pilaformulario\pilaformulario\obj\Debug\pilaformulario.csproj.GenerateResource.Cache
+C:\Users\Personal\Documents\SharpDevelop Projects\pilaformulario\pilaformulario\bin\Debug\pilaformulario.exe
+C:\Users\Personal\Documents\SharpDevelop Projects\pilaformulario\pilaformulario\bin\Debug\pilaformulario.pdb
+C:\Users\Personal\Documents\SharpDevelop Projects\pilaformulario\pilaformulario\obj\Debug\pilaformulario.exe
+C:\Users\Personal\Documents\SharpDevelop Projects\pilaformulario\pilaformulario\obj\Debug\pilaformulario.pdb
+C:\Users\carlo\Downloads\ejercicio\pilaformulario\obj\Debug\pilaformulario.exe
+C:\Users\carlo\Downloads\ejercicio\pilaformulario\obj\Debug\pilaformulario.pdb
+C:\Users\carlo\Downloads\ejercicio\pilaformulario\bin\Debug\pilaformulario.exe
+C:\Users\carlo\Downloads\ejercicio\pilaformulario\bin\Debug\pilaformulario.pdb
+C:\Users\carlo\Downloads\ejercicio\pilaformulario\obj\Debug\pilaformulario.csprojResolveAssemblyReference.cache
+C:\Users\carlo\Downloads\ejercicio\pilaformulario\obj\Debug\pilaformulario.MainForm.resources
+C:\Users\carlo\Downloads\ejercicio\pilaformulario\obj\Debug\pilaformulario.csproj.GenerateResource.Cache
+C:\Users\carlo\Desktop\pilaformulario\obj\Debug\pilaformulario.MainForm.resources
+C:\Users\carlo\Desktop\pilaformulario\obj\Debug\pilaformulario.csproj.GenerateResource.Cache
+C:\Users\carlo\Desktop\pilaformulario\bin\Debug\pilaformulario.exe.config
+C:\Users\carlo\Desktop\pilaformulario\bin\Debug\pilaformulario.exe
+C:\Users\carlo\Desktop\pilaformulario\bin\Debug\pilaformulario.pdb
+C:\Users\carlo\Desktop\pilaformulario\obj\Debug\pilaformulario.csproj.AssemblyReference.cache
+C:\Users\carlo\Desktop\pilaformulario\obj\Debug\pilaformulario.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Desktop\pilaformulario\obj\Debug\pilaformulario.exe
+C:\Users\carlo\Desktop\pilaformulario\obj\Debug\pilaformulario.pdb
+C:\Users\carlo\Desktop\pilaformulario\obj\Debug\pilaformulario.exe.config
