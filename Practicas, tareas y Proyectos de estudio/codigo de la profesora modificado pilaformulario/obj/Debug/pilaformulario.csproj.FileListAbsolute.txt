@@ -22,3 +22,12 @@ C:\Users\carlo\Desktop\pilaformulario\obj\Debug\pilaformulario.csproj.CoreCompil
 C:\Users\carlo\Desktop\pilaformulario\obj\Debug\pilaformulario.exe
 C:\Users\carlo\Desktop\pilaformulario\obj\Debug\pilaformulario.pdb
 C:\Users\carlo\Desktop\pilaformulario\obj\Debug\pilaformulario.exe.config
+C:\xampp\htdocs\carlos\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\codigo de la profesora modificado pilaformulario\bin\Debug\pilaformulario.exe.config
+C:\xampp\htdocs\carlos\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\codigo de la profesora modificado pilaformulario\bin\Debug\pilaformulario.exe
+C:\xampp\htdocs\carlos\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\codigo de la profesora modificado pilaformulario\bin\Debug\pilaformulario.pdb
+C:\xampp\htdocs\carlos\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\codigo de la profesora modificado pilaformulario\obj\Debug\pilaformulario.csproj.AssemblyReference.cache
+C:\xampp\htdocs\carlos\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\codigo de la profesora modificado pilaformulario\obj\Debug\pilaformulario.MainForm.resources
+C:\xampp\htdocs\carlos\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\codigo de la profesora modificado pilaformulario\obj\Debug\pilaformulario.csproj.GenerateResource.cache
+C:\xampp\htdocs\carlos\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\codigo de la profesora modificado pilaformulario\obj\Debug\pilaformulario.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\carlos\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\codigo de la profesora modificado pilaformulario\obj\Debug\pilaformulario.exe
+C:\xampp\htdocs\carlos\ficheros\DEV\.NET\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\codigo de la profesora modificado pilaformulario\obj\Debug\pilaformulario.pdb

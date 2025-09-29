@@ -47,9 +47,6 @@ namespace practicas
             this.panel4 = new System.Windows.Forms.Panel();
             this.admin_pass = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.Level = new System.Windows.Forms.ComboBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.admin_otro = new System.Windows.Forms.RadioButton();
             this.admin_mujer = new System.Windows.Forms.RadioButton();
@@ -64,7 +61,6 @@ namespace practicas
             this.label10 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.name_user = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -77,7 +73,7 @@ namespace practicas
             this.panel1.Controls.Add(this.button6);
             this.panel1.Location = new System.Drawing.Point(1, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(57, 336);
+            this.panel1.Size = new System.Drawing.Size(122, 437);
             this.panel1.TabIndex = 0;
             // 
             // label13
@@ -104,10 +100,11 @@ namespace practicas
             // 
             this.panel2.BackColor = System.Drawing.Color.MediumAquamarine;
             this.panel2.Controls.Add(this.label14);
-            this.panel2.Location = new System.Drawing.Point(55, 1);
+            this.panel2.Location = new System.Drawing.Point(123, 1);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(515, 43);
             this.panel2.TabIndex = 1;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // label14
             // 
@@ -122,12 +119,8 @@ namespace practicas
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.DarkGray;
-            this.panel4.Controls.Add(this.name_user);
             this.panel4.Controls.Add(this.admin_pass);
             this.panel4.Controls.Add(this.label16);
-            this.panel4.Controls.Add(this.label12);
-            this.panel4.Controls.Add(this.Level);
-            this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.admin_otro);
             this.panel4.Controls.Add(this.admin_mujer);
@@ -140,7 +133,7 @@ namespace practicas
             this.panel4.Controls.Add(this.label9);
             this.panel4.Controls.Add(this.adminName);
             this.panel4.Controls.Add(this.label10);
-            this.panel4.Location = new System.Drawing.Point(64, 47);
+            this.panel4.Location = new System.Drawing.Point(256, 90);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(494, 245);
             this.panel4.TabIndex = 13;
@@ -161,42 +154,13 @@ namespace practicas
             this.label16.TabIndex = 32;
             this.label16.Text = "Contraseña de Usuario";
             // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(308, 170);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(90, 13);
-            this.label12.TabIndex = 31;
-            this.label12.Text = "Nivel de permisos";
-            // 
-            // Level
-            // 
-            this.Level.FormattingEnabled = true;
-            this.Level.Items.AddRange(new object[] {
-            "Usuario",
-            "Administrador"});
-            this.Level.Location = new System.Drawing.Point(287, 184);
-            this.Level.Name = "Level";
-            this.Level.Size = new System.Drawing.Size(133, 21);
-            this.Level.TabIndex = 30;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(72, 127);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(29, 13);
-            this.label11.TabIndex = 28;
-            this.label11.Text = "Alias";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(319, 53);
+            this.label6.Location = new System.Drawing.Point(319, 98);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(63, 20);
             this.label6.TabIndex = 27;
@@ -205,7 +169,7 @@ namespace practicas
             // admin_otro
             // 
             this.admin_otro.AutoSize = true;
-            this.admin_otro.Location = new System.Drawing.Point(323, 107);
+            this.admin_otro.Location = new System.Drawing.Point(323, 175);
             this.admin_otro.Name = "admin_otro";
             this.admin_otro.Size = new System.Drawing.Size(50, 17);
             this.admin_otro.TabIndex = 26;
@@ -216,7 +180,7 @@ namespace practicas
             // admin_mujer
             // 
             this.admin_mujer.AutoSize = true;
-            this.admin_mujer.Location = new System.Drawing.Point(323, 132);
+            this.admin_mujer.Location = new System.Drawing.Point(323, 152);
             this.admin_mujer.Name = "admin_mujer";
             this.admin_mujer.Size = new System.Drawing.Size(51, 17);
             this.admin_mujer.TabIndex = 25;
@@ -227,7 +191,7 @@ namespace practicas
             // admin_hombre
             // 
             this.admin_hombre.AutoSize = true;
-            this.admin_hombre.Location = new System.Drawing.Point(323, 84);
+            this.admin_hombre.Location = new System.Drawing.Point(323, 129);
             this.admin_hombre.Name = "admin_hombre";
             this.admin_hombre.Size = new System.Drawing.Size(62, 17);
             this.admin_hombre.TabIndex = 24;
@@ -237,7 +201,7 @@ namespace practicas
             // 
             // admin_fecha
             // 
-            this.admin_fecha.Location = new System.Drawing.Point(256, 25);
+            this.admin_fecha.Location = new System.Drawing.Point(258, 49);
             this.admin_fecha.Name = "admin_fecha";
             this.admin_fecha.Size = new System.Drawing.Size(213, 20);
             this.admin_fecha.TabIndex = 23;
@@ -245,7 +209,7 @@ namespace practicas
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(308, 9);
+            this.label7.Location = new System.Drawing.Point(310, 33);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(111, 13);
             this.label7.TabIndex = 22;
@@ -253,7 +217,7 @@ namespace practicas
             // 
             // admin_ci
             // 
-            this.admin_ci.Location = new System.Drawing.Point(18, 104);
+            this.admin_ci.Location = new System.Drawing.Point(18, 138);
             this.admin_ci.Name = "admin_ci";
             this.admin_ci.Size = new System.Drawing.Size(135, 20);
             this.admin_ci.TabIndex = 21;
@@ -261,7 +225,7 @@ namespace practicas
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(72, 88);
+            this.label8.Location = new System.Drawing.Point(72, 122);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(17, 13);
             this.label8.TabIndex = 20;
@@ -269,7 +233,7 @@ namespace practicas
             // 
             // admin_apellido
             // 
-            this.admin_apellido.Location = new System.Drawing.Point(20, 64);
+            this.admin_apellido.Location = new System.Drawing.Point(20, 98);
             this.admin_apellido.Name = "admin_apellido";
             this.admin_apellido.Size = new System.Drawing.Size(133, 20);
             this.admin_apellido.TabIndex = 19;
@@ -277,7 +241,7 @@ namespace practicas
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(57, 48);
+            this.label9.Location = new System.Drawing.Point(57, 82);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(44, 13);
             this.label9.TabIndex = 18;
@@ -285,7 +249,7 @@ namespace practicas
             // 
             // adminName
             // 
-            this.adminName.Location = new System.Drawing.Point(20, 25);
+            this.adminName.Location = new System.Drawing.Point(20, 59);
             this.adminName.Name = "adminName";
             this.adminName.Size = new System.Drawing.Size(133, 20);
             this.adminName.TabIndex = 17;
@@ -295,7 +259,7 @@ namespace practicas
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(57, 9);
+            this.label10.Location = new System.Drawing.Point(57, 43);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(44, 13);
             this.label10.TabIndex = 16;
@@ -304,7 +268,7 @@ namespace practicas
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(82, 298);
+            this.button3.Location = new System.Drawing.Point(256, 350);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(71, 26);
             this.button3.TabIndex = 12;
@@ -314,25 +278,18 @@ namespace practicas
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(464, 298);
+            this.button4.Location = new System.Drawing.Point(666, 384);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(84, 26);
             this.button4.TabIndex = 11;
             this.button4.Text = "Enviar";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // name_user
-            // 
-            this.name_user.Location = new System.Drawing.Point(20, 143);
-            this.name_user.Name = "name_user";
-            this.name_user.Size = new System.Drawing.Size(133, 20);
-            this.name_user.TabIndex = 34;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(570, 336);
+            this.ClientSize = new System.Drawing.Size(788, 437);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
@@ -353,12 +310,8 @@ namespace practicas
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.TextBox name_user;
         private System.Windows.Forms.TextBox admin_pass;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox Level;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.RadioButton admin_otro;
         private System.Windows.Forms.RadioButton admin_mujer;

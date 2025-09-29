@@ -1,21 +1,10 @@
-﻿/*
- * Creado por SharpDevelop.
- * Usuario: Personal
- * Fecha: 26/9/2025
- * Hora: 8:18 p. m.
- *
- * Para cambiar esta plantilla use Herramientas | Opciones | Codificación | Editar Encabezados Estándar
- */
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace pilaformulario
 {
-    /// <summary>
-    /// Description of MainForm.
-    /// </summary>
     public partial class MainForm : Form
     {
         private Pila miPila = new Pila();
@@ -35,7 +24,6 @@ namespace pilaformulario
                 return;
             }
 
-            // Intentar agregar el elemento (evita duplicados)
             if (miPila.Push(dato))
             {
                 ActualizarLista();
@@ -66,7 +54,6 @@ namespace pilaformulario
         void ActualizarLista()
         {
             listBox1.Items.Clear();
-            // Mostrar elementos en orden de inserción (el último agregado = tope = último en la lista visual)
             foreach (var item in miPila.ObtenerElementos())
             {
                 listBox1.Items.Add(item);

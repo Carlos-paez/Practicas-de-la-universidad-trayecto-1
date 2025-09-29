@@ -239,6 +239,11 @@ namespace practicas
             Form1 login = new Form1(this.users, this.admins);
             login.Show();
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
 

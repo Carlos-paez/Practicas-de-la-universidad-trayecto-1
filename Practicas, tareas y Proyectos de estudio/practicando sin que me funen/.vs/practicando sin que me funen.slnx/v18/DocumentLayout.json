@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04ADFE35-1FC1-4FAB-9956-B3B2DF22B828}|practicando sin que me funen.csproj|c:\\xampp\\htdocs\\carlos\\ficheros\\dev\\.net\\practicas-de-la-universidad-trayecto-1\\practicas, tareas y proyectos de estudio\\practicando sin que me funen\\pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ADFE35-1FC1-4FAB-9956-B3B2DF22B828}|practicando sin que me funen.csproj|solutionrelative:pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pila.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\Pila.cs",
+              "RelativeDocumentMoniker": "Pila.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\Pila.cs",
+              "RelativeToolTip": "Pila.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T20:27:48.101Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

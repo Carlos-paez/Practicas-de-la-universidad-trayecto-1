@@ -12,7 +12,6 @@ namespace practicas
         private string CI;
         private string Genero;
         private DateTime FechaNacimiento;
-        private string Alias;
         private string Password;
         private Rol rol;
         public enum Rol
@@ -28,7 +27,6 @@ namespace practicas
             this.CI = ci;
             this.Genero = genero;
             this.FechaNacimiento = fechaNacimiento;
-            this.Alias = alias;
             this.Password = password;
             this.rol = Rol.Usuario;
             this.rol = Rol.Administrador;
@@ -78,15 +76,7 @@ namespace practicas
         {
             this.FechaNacimiento = fechaNacimiento;
         }
-        public string GetAlias()
-        {
-            return Alias;
-        }
-        public void SetAlias(string alias)
-        {
-            this.Alias = alias;
-        }
-
+       
 		public string GetPassword()
 		{
 			return Password;
