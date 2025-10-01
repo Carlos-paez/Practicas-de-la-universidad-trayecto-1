@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace practicando_sin_que_me_funen
 {
-    public partial class Form1 : Form
+    public partial class viewUsers : Form
     {
-        public Form1()
+        public viewUsers()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            userslist.Text = "Usuarios Creados";
         }
     }
 }

@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04ADFE35-1FC1-4FAB-9956-B3B2DF22B828}|practicando sin que me funen.csproj|c:\\xampp\\htdocs\\carlos\\ficheros\\dev\\.net\\practicas-de-la-universidad-trayecto-1\\practicas, tareas y proyectos de estudio\\practicando sin que me funen\\pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04ADFE35-1FC1-4FAB-9956-B3B2DF22B828}|practicando sin que me funen.csproj|solutionrelative:pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04ADFE35-1FC1-4FAB-9956-B3B2DF22B828}|practicando sin que me funen.csproj|c:\\xampp\\htdocs\\carlos\\ficheros\\dev\\.net\\practicas-de-la-universidad-trayecto-1\\practicas, tareas y proyectos de estudio\\practicando sin que me funen\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ADFE35-1FC1-4FAB-9956-B3B2DF22B828}|practicando sin que me funen.csproj|solutionrelative:usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ADFE35-1FC1-4FAB-9956-B3B2DF22B828}|practicando sin que me funen.csproj|c:\\xampp\\htdocs\\carlos\\ficheros\\dev\\.net\\practicas-de-la-universidad-trayecto-1\\practicas, tareas y proyectos de estudio\\practicando sin que me funen\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ADFE35-1FC1-4FAB-9956-B3B2DF22B828}|practicando sin que me funen.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ADFE35-1FC1-4FAB-9956-B3B2DF22B828}|practicando sin que me funen.csproj|c:\\xampp\\htdocs\\carlos\\ficheros\\dev\\.net\\practicas-de-la-universidad-trayecto-1\\practicas, tareas y proyectos de estudio\\practicando sin que me funen\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{04ADFE35-1FC1-4FAB-9956-B3B2DF22B828}|practicando sin que me funen.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ADFE35-1FC1-4FAB-9956-B3B2DF22B828}|practicando sin que me funen.csproj|c:\\xampp\\htdocs\\carlos\\ficheros\\dev\\.net\\practicas-de-la-universidad-trayecto-1\\practicas, tareas y proyectos de estudio\\practicando sin que me funen\\viewusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{04ADFE35-1FC1-4FAB-9956-B3B2DF22B828}|practicando sin que me funen.csproj|solutionrelative:viewusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ADFE35-1FC1-4FAB-9956-B3B2DF22B828}|practicando sin que me funen.csproj|c:\\xampp\\htdocs\\carlos\\ficheros\\dev\\.net\\practicas-de-la-universidad-trayecto-1\\practicas, tareas y proyectos de estudio\\practicando sin que me funen\\viewusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ADFE35-1FC1-4FAB-9956-B3B2DF22B828}|practicando sin que me funen.csproj|solutionrelative:viewusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +30,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pila.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\Pila.cs",
-              "RelativeDocumentMoniker": "Pila.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\Pila.cs",
-              "RelativeToolTip": "Pila.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAUwCAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA9wCEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T20:27:48.101Z",
+              "WhenOpened": "2025-10-01T16:26:35.949Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T16:26:39.952Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "viewUsers.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\viewUsers.cs",
+              "RelativeDocumentMoniker": "viewUsers.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\viewUsers.cs",
+              "RelativeToolTip": "viewUsers.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAEwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T19:19:26.29Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "viewUsers.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\viewUsers.cs",
+              "RelativeDocumentMoniker": "viewUsers.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\viewUsers.cs [Dise\u00F1o]",
+              "RelativeToolTip": "viewUsers.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T19:14:44.527Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\Usuario.cs",
+              "RelativeDocumentMoniker": "Usuario.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\carlos\\ficheros\\DEV\\.NET\\Practicas-de-la-universidad-trayecto-1\\Practicas, tareas y Proyectos de estudio\\practicando sin que me funen\\Usuario.cs",
+              "RelativeToolTip": "Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T20:38:31.758Z",
               "EditorCaption": ""
             }
           ]

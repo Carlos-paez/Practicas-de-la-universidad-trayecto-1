@@ -13,9 +13,15 @@ namespace practicando_sin_que_me_funen
         }
 
         // Método push
-        public void push(string dato)
+        public bool push(string dato)
         {
+            if (items.Contains(dato))
+            {
+                return false;
+            }
+
             items.Add(dato);
+            return true;
         }
 
         // Método pop
@@ -28,5 +34,24 @@ namespace practicando_sin_que_me_funen
             items.RemoveAt(items.Count - 1);
             return ultimo;
         }
+
+        //Metodo Peek
+        public string peek()
+        {
+            return items.Count > 0 ? items[items.Count - 1] : null;
+        }
+
+        //obtener los items
+        public List<string> optener_items()
+        {
+            return new List<string>(items);
+        }
+
+        //Mostrar s esta vacio
+        public bool vacio()
+        {
+            return items.Count == 0;
+        }
     }
 }
+    

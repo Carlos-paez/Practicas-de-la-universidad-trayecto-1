@@ -50,6 +50,6 @@ namespace pilaformulario
         public bool EstaVacia()
         {
             return elementos.Count == 0;
-        }
+        }i
     }
 }
