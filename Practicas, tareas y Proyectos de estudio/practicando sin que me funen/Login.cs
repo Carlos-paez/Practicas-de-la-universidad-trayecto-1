@@ -20,11 +20,13 @@ namespace practicando_sin_que_me_funen
             InitializeComponent();
         }
 
+        //Cerrar
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
+        //Enviar
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -57,6 +59,9 @@ namespace practicando_sin_que_me_funen
 
                     if (mypila.push(user.GetNombre()))
                     {
+
+                        Actualizar();
+
                         email.Clear();
                         email.Focus();
 
@@ -79,12 +84,64 @@ namespace practicando_sin_que_me_funen
             }
         }
 
+        // Actualizar Lista
+        public void Actualizar()
+        {
+            try
+            {
+                allusers.Items.Clear();
+
+                foreach (var item in mypila.optener_items())
+                {
+                    allusers.Items.Add(item);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        //Ver ultimo
         private void button3_Click(object sender, EventArgs e)
         {
             try
             {
-                viewUsers viewUsers = new viewUsers();
-                viewUsers.Show();
+                string ultimo = mypila.peek();
+
+                if (ultimo != null)
+                {
+                    MessageBox.Show($"El Ultimo Usuario Creado fue: {ultimo}", "Ultimo Usuario", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+
+                else
+                {
+                    MessageBox.Show("No se a creado ningún usuario", "Vacio", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        //Eliminar Ultimo
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try{
+                if (!mypila.vacio())
+                {
+                    string eliminado = mypila.pop();
+                    Actualizar();
+
+                    MessageBox.Show($"Se a Eliminado el Usuario: {eliminado}", "Eliminado", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                }
+
+                else
+                {
+                    MessageBox.Show("No se a creado ningún usuario", "Vacio", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
 
             catch (Exception ex)
