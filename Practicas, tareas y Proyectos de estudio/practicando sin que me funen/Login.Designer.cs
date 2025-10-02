@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.nivel = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.human = new System.Windows.Forms.CheckBox();
@@ -40,6 +39,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.email = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.admin = new System.Windows.Forms.RadioButton();
+            this.estand = new System.Windows.Forms.RadioButton();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +58,8 @@
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.nivel);
+            this.panel1.Controls.Add(this.estand);
+            this.panel1.Controls.Add(this.admin);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.human);
@@ -68,17 +71,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(345, 350);
             this.panel1.TabIndex = 3;
-            // 
-            // nivel
-            // 
-            this.nivel.FormattingEnabled = true;
-            this.nivel.Items.AddRange(new object[] {
-            "Administrador",
-            "Estandar"});
-            this.nivel.Location = new System.Drawing.Point(91, 198);
-            this.nivel.Name = "nivel";
-            this.nivel.Size = new System.Drawing.Size(150, 21);
-            this.nivel.TabIndex = 8;
             // 
             // label3
             // 
@@ -169,6 +161,47 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // admin
+            // 
+            this.admin.AutoSize = true;
+            this.admin.BackColor = System.Drawing.Color.Indigo;
+            this.admin.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.admin.ForeColor = System.Drawing.Color.White;
+            this.admin.Location = new System.Drawing.Point(68, 202);
+            this.admin.Name = "admin";
+            this.admin.Size = new System.Drawing.Size(104, 19);
+            this.admin.TabIndex = 8;
+            this.admin.TabStop = true;
+            this.admin.Text = "Administrador";
+            this.admin.UseVisualStyleBackColor = false;
+            // 
+            // estand
+            // 
+            this.estand.AutoSize = true;
+            this.estand.BackColor = System.Drawing.Color.Indigo;
+            this.estand.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.estand.ForeColor = System.Drawing.Color.White;
+            this.estand.Location = new System.Drawing.Point(209, 202);
+            this.estand.Name = "estand";
+            this.estand.Size = new System.Drawing.Size(75, 19);
+            this.estand.TabIndex = 9;
+            this.estand.TabStop = true;
+            this.estand.Text = "Estandar";
+            this.estand.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.DarkOrchid;
+            this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(754, 452);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(100, 42);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Ver Usuarios";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -176,6 +209,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(866, 506);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
@@ -198,7 +232,9 @@
         private System.Windows.Forms.CheckBox human;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox nivel;
+        private System.Windows.Forms.RadioButton estand;
+        private System.Windows.Forms.RadioButton admin;
+        private System.Windows.Forms.Button button3;
     }
 }
 

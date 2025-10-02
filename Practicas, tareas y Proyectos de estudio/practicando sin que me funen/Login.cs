@@ -27,31 +27,70 @@ namespace practicando_sin_que_me_funen
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string user = email.Text.Trim();
-            string date = pass.Text.Trim();
-
-            Dictionary<string, int> levels = nivel.Text;
-
-
-            Users theuser = new Users(user, date, );
-
-            if (string.IsNullOrEmpty(user))
+            try
             {
-                MessageBox.Show("Ingrese un dato valido", "Invalido", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                string name = email.Text.Trim();
+                string clave = pass.Text.Trim();
+                string nivel = "";
+
+                if (admin.Checked == true)
+                {
+                    nivel = "Administrador";
+                }
+
+                if (estand.Checked == true)
+                {
+                    nivel = "Estandar";
+                }
+
+
+                Users user = new Users(name, clave, nivel);
+
+
+                if (human.Checked == true)
+                {
+                    if (string.IsNullOrEmpty(user.GetNombre()))
+                    {
+                        MessageBox.Show("Ingrese un dato valido", "Invalido", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
+                    if (mypila.push(user.GetNombre()))
+                    {
+                        email.Clear();
+                        email.Focus();
+
+                        pass.Clear();
+                        pass.Focus();
+
+                        MessageBox.Show($"El Usuario '{user.GetNombre()}' fue creado con exito", "Creado", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    }
+                }
+
+                else
+                {
+                    MessageBox.Show("Por favor confirme que no es un robot", "Invalido", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
 
-            if (mypila.push(user))
+            catch (Exception ex)
             {
-                email.Clear();
-                email.Focus();
+                MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
 
-                pass.Clear();
-                pass.Focus();
-
-                MessageBox.Show($"El Usuario '{user}' fue creado con exito", "Creado", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                viewUsers viewUsers = new viewUsers();
+                viewUsers.Show();
             }
 
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

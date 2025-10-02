@@ -5,17 +5,13 @@ public class Users
 {
     private string nombre;
     private string password;
-    private Dictionary<string, int> levels = new Dictionary<string, int>()
-    {
-        {"Estandar" , 1 },
-        {"Administrador", 0 }
-    };
+    private string UserLevels;
 
-    public Users(string Nombre, string Password, Dictionary<string, int> levels)
+        public Users(string Nombre, string Password, string UserLevels)
     {
         this.nombre = Nombre;
         this.password = Password;
-        this.levels = new Dictionary<string, int>(levels);
+        this.UserLevels = UserLevels;
     }
 
     public string GetNombre() => nombre;
@@ -24,29 +20,6 @@ public class Users
     public string GetPassword() => password;
     public void setPassword(string password) => this.password = password;
 
-
-    public IReadOnlyDictionary<string, int> Levels => levels;
-
-    public void AddLevel(string key, int value)
-    {
-        if (!levels.ContainsKey(key))
-        {
-            levels.Add(key, value);
-        }
-    }
-
-    public bool UpdateLevel(string key, int value)
-    {
-        if (levels.ContainsKey(key))
-        {
-            levels[key] = value;
-            return true;
-        }
-        return false;
-    }
-
-    public bool RemoveLevel(string key)
-    {
-        return levels.Remove(key);
-    }
+    public string GetUserLevels() => UserLevels;
+    public void setUserLevels(string userLevels) => UserLevels = userLevels;
 }

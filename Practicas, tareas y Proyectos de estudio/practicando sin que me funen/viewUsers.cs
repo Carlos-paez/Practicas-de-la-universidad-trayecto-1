@@ -16,10 +16,5 @@ namespace practicando_sin_que_me_funen
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            userslist.Text = "Usuarios Creados";
-        }
     }
 }
