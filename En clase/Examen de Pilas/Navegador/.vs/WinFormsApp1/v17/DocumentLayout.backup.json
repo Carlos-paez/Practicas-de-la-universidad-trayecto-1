@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carlo\\Desktop\\WinFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA31F48B-C14C-45F1-A872-B50F129AFF4A}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\carlo\\desktop\\winformsapp1\\winformsapp1\\browser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA31F48B-C14C-45F1-A872-B50F129AFF4A}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\browser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA31F48B-C14C-45F1-A872-B50F129AFF4A}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\carlo\\desktop\\winformsapp1\\winformsapp1\\browser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA31F48B-C14C-45F1-A872-B50F129AFF4A}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\browser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA31F48B-C14C-45F1-A872-B50F129AFF4A}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\carlo\\desktop\\winformsapp1\\winformsapp1\\browser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA31F48B-C14C-45F1-A872-B50F129AFF4A}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\browser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA31F48B-C14C-45F1-A872-B50F129AFF4A}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\carlo\\desktop\\winformsapp1\\winformsapp1\\mypila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA31F48B-C14C-45F1-A872-B50F129AFF4A}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\mypila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyPila.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Desktop\\WinFormsApp1\\WinFormsApp1\\MyPila.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\MyPila.cs",
+              "ToolTip": "C:\\Users\\carlo\\Desktop\\WinFormsApp1\\WinFormsApp1\\MyPila.cs",
+              "RelativeToolTip": "WinFormsApp1\\MyPila.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T14:25:22.416Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Browser.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Desktop\\WinFormsApp1\\WinFormsApp1\\Browser.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Browser.cs",
+              "ToolTip": "C:\\Users\\carlo\\Desktop\\WinFormsApp1\\WinFormsApp1\\Browser.cs*",
+              "RelativeToolTip": "WinFormsApp1\\Browser.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T14:18:36.066Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Browser.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\carlo\\Desktop\\WinFormsApp1\\WinFormsApp1\\Browser.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Browser.cs",
+              "ToolTip": "C:\\Users\\carlo\\Desktop\\WinFormsApp1\\WinFormsApp1\\Browser.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "WinFormsApp1\\Browser.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T14:18:31.506Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Browser.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\Desktop\\WinFormsApp1\\WinFormsApp1\\Browser.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Browser.Designer.cs",
+              "ToolTip": "C:\\Users\\carlo\\Desktop\\WinFormsApp1\\WinFormsApp1\\Browser.Designer.cs*",
+              "RelativeToolTip": "WinFormsApp1\\Browser.Designer.cs*",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAawE8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T15:16:16.456Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

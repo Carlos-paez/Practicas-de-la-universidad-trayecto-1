@@ -47,7 +47,7 @@ namespace practicando_sin_que_me_funen
             return new List<string>(items);
         }
 
-        //Mostrar s esta vacio
+        //Mostrar si esta vacio
         public bool vacio()
         {
             return items.Count == 0;

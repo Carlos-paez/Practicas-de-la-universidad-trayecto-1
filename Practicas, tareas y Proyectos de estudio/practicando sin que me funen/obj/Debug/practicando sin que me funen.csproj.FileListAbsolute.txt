@@ -13,7 +13,6 @@ E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Pra
 E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practicando sin que me funen\bin\Debug\practicando sin que me funen.pdb
 E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practicando sin que me funen\obj\Debug\practicando sin que me funen.csproj.AssemblyReference.cache
 E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practicando sin que me funen\obj\Debug\practicando sin que me funen.exe.config
-E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practicando sin que me funen\obj\Debug\practicando_sin_que_me_funen.viewUsers.resources
 E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practicando sin que me funen\obj\Debug\practicando_sin_que_me_funen.Login.resources
 E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practicando sin que me funen\obj\Debug\practicando_sin_que_me_funen.Properties.Resources.resources
 E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\practicando sin que me funen\obj\Debug\practicando sin que me funen.csproj.GenerateResource.cache
