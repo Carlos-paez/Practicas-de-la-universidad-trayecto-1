@@ -8,3 +8,14 @@ C:\Users\cpaez\Downloads\Nueva carpeta (2)\WindowsFormsApp1\obj\Debug\WindowsFor
 C:\Users\cpaez\Downloads\Nueva carpeta (2)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\cpaez\Downloads\Nueva carpeta (2)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\cpaez\Downloads\Nueva carpeta (2)\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Cola\bin\Debug\WindowsFormsApp1.exe.config
+E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Cola\bin\Debug\WindowsFormsApp1.exe
+E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Cola\bin\Debug\WindowsFormsApp1.pdb
+E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Cola\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Cola\obj\Debug\WindowsFormsApp1.exe.config
+E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Cola\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Cola\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Cola\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Cola\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Cola\obj\Debug\WindowsFormsApp1.exe
+E:\Programación de la Universidad\C#\Practicas-de-la-universidad-trayecto-1\Practicas, tareas y Proyectos de estudio\Cola\obj\Debug\WindowsFormsApp1.pdb
