@@ -1,0 +1,16 @@
+C:\Users\carlo\Desktop\Cola\Cola\obj\Debug\net9.0-windows\Cola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\Desktop\Cola\Cola\obj\Debug\net9.0-windows\Cola.AssemblyInfoInputs.cache
+C:\Users\carlo\Desktop\Cola\Cola\obj\Debug\net9.0-windows\Cola.AssemblyInfo.cs
+C:\Users\carlo\Desktop\Cola\Cola\obj\Debug\net9.0-windows\Cola.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Desktop\Cola\Cola\bin\Debug\net9.0-windows\Cola.exe
+C:\Users\carlo\Desktop\Cola\Cola\bin\Debug\net9.0-windows\Cola.deps.json
+C:\Users\carlo\Desktop\Cola\Cola\bin\Debug\net9.0-windows\Cola.runtimeconfig.json
+C:\Users\carlo\Desktop\Cola\Cola\bin\Debug\net9.0-windows\Cola.dll
+C:\Users\carlo\Desktop\Cola\Cola\bin\Debug\net9.0-windows\Cola.pdb
+C:\Users\carlo\Desktop\Cola\Cola\obj\Debug\net9.0-windows\Cola.Form1.resources
+C:\Users\carlo\Desktop\Cola\Cola\obj\Debug\net9.0-windows\Cola.csproj.GenerateResource.cache
+C:\Users\carlo\Desktop\Cola\Cola\obj\Debug\net9.0-windows\Cola.dll
+C:\Users\carlo\Desktop\Cola\Cola\obj\Debug\net9.0-windows\refint\Cola.dll
+C:\Users\carlo\Desktop\Cola\Cola\obj\Debug\net9.0-windows\Cola.pdb
+C:\Users\carlo\Desktop\Cola\Cola\obj\Debug\net9.0-windows\Cola.genruntimeconfig.cache
+C:\Users\carlo\Desktop\Cola\Cola\obj\Debug\net9.0-windows\ref\Cola.dll
